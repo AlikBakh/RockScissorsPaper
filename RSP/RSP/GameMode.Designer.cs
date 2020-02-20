@@ -31,6 +31,12 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GameMode));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel4 = new System.Windows.Forms.Panel();
             this.PlayMusic = new System.Windows.Forms.Button();
             this.StopMusic = new System.Windows.Forms.Button();
             this.Scissors = new System.Windows.Forms.Button();
@@ -43,18 +49,20 @@
             this.SvernutGM = new System.Windows.Forms.Label();
             this.ExitGM = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
+            this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена;
-            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.panel5);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.panel3);
+            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.PlayMusic);
             this.panel1.Controls.Add(this.StopMusic);
             this.panel1.Controls.Add(this.Scissors);
@@ -67,6 +75,71 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(817, 504);
             this.panel1.TabIndex = 0;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.label2);
+            this.panel5.Controls.Add(this.label1);
+            this.panel5.Location = new System.Drawing.Point(305, 124);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(181, 42);
+            this.panel5.TabIndex = 13;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.DarkRed;
+            this.label2.Font = new System.Drawing.Font("Courant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Silver;
+            this.label2.Location = new System.Drawing.Point(93, 10);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(88, 22);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "s Comp";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.DarkRed;
+            this.label1.Font = new System.Drawing.Font("Courant", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
+            this.label1.Location = new System.Drawing.Point(13, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(88, 22);
+            this.label1.TabIndex = 11;
+            this.label1.Text = "User v";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(248, 172);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(93, 81);
+            this.pictureBox1.TabIndex = 12;
+            this.pictureBox1.TabStop = false;
+            // 
+            // panel3
+            // 
+            this.panel3.AutoSize = true;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.ForeColor = System.Drawing.Color.Red;
+            this.panel3.Location = new System.Drawing.Point(248, 16);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(93, 102);
+            this.panel3.TabIndex = 10;
+            // 
+            // panel4
+            // 
+            this.panel4.AutoSize = true;
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel4.ForeColor = System.Drawing.SystemColors.Control;
+            this.panel4.Location = new System.Drawing.Point(494, 16);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(93, 90);
+            this.panel4.TabIndex = 10;
             // 
             // PlayMusic
             // 
@@ -206,29 +279,6 @@
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // panel3
-            // 
-            this.panel3.AutoSize = true;
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(279, 66);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(93, 90);
-            this.panel3.TabIndex = 10;
-            // 
-            // panel4
-            // 
-            this.panel4.AutoSize = true;
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel4.Location = new System.Drawing.Point(430, 66);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(93, 90);
-            this.panel4.TabIndex = 10;
-            // 
             // GameMode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -243,6 +293,9 @@
             this.Text = "GameMode";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.ResumeLayout(false);
@@ -266,5 +319,9 @@
         public System.Windows.Forms.Button PlayMusic;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

@@ -94,8 +94,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\pause.png" />
-    <Content Include="Images\комп.png" />
-    <Content Include="Images\человек.png" />
     <None Include="Resources\каменная стена.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -116,6 +114,10 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Images\some png\" />
+    <Folder Include="Images\user%27s\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

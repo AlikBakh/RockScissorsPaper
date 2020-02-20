@@ -13,13 +13,28 @@ namespace RSP
 {
     public partial class GameMode : Form
     {
+        string UserHand = "" , CompHand = "";
+        int UserWin = 0,
+            UserLose = 0,
+            UserDraw = 0;
+        int MyScore = 0;
+
+        Random cpuRand = new Random();
+
+
+
+
+
         public WindowsMediaPlayer music = new WindowsMediaPlayer(); 
         public GameMode()
         {
             InitializeComponent();
+
             this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
             music.URL = "C:/Users/RadeON-SC/Desktop/запуск.mp3";
             music.settings.balance = music.settings.volume / 2;
+
+            //Show.score();
         }
 
         public void PlayMusic_Click(object sender, EventArgs e)//запуск музыки
@@ -41,6 +56,25 @@ namespace RSP
             TimeGM.Text = DateTime.Now.ToLongTimeString();
         }
 
+
+        private void HelpGM_Click(object sender, EventArgs e)//Вывод правил игры.
+        {
+            MessageBox.Show("     Победитель определяется по следующим 3 правилам:\n" +
+            "-Бумага побеждает камень(«бумага кроет камень»);\n" +
+            "-Камень побеждает ножницы(«камень ломает ножницы»);\n" +
+            "-Ножницы побеждают бумагу(«ножницы режут бумагу»).\n\n" +
+            "Если игроки показали одинаковый знак, то засчитывается ничья и счёт остаётся всё тем же.", "Правила игры",
+             MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+        }
+
+
+        Point lastPoint;//передвижение формы зажав левую кнопку мышки
+        private void panel2_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button != MouseButtons.Left)
+                lastPoint = e.Location;
+            Location = new Point((Size)Location - (Size)lastPoint + (Size)e.Location);
+        }
 
 
         private void ExitGM_Click(object sender, EventArgs e)//Выход из игры с последующим подтверждением.
@@ -65,7 +99,7 @@ namespace RSP
             ExitGM.ForeColor = Color.White;
         }
 
-
+       
 
         private void SvernutGM_Click(object sender, EventArgs e)//свернуть окно
         {
@@ -80,30 +114,13 @@ namespace RSP
             SvernutGM.ForeColor = Color.White;
         }
 
-        
-        
-        private void HelpGM_Click(object sender, EventArgs e)//Вывод правил игры.
-        {
-            MessageBox.Show("     Победитель определяется по следующим 3 правилам:\n" +
-            "-Бумага побеждает камень(«бумага кроет камень»);\n" +
-            "-Камень побеждает ножницы(«камень ломает ножницы»);\n" +
-            "-Ножницы побеждают бумагу(«ножницы режут бумагу»).\n\n" +
-            "Если игроки показали одинаковый знак, то засчитывается ничья и счёт остаётся всё тем же.", "Правила игры",
-             MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-        }
-               
 
 
-        Point lastPoint;//передвижение формы зажав левую кнопку мышки
-        private void panel2_MouseMove(object sender, MouseEventArgs e)
-        {
-            if (e.Button != MouseButtons.Left)
-                lastPoint = e.Location;
-            Location = new Point((Size)Location - (Size)lastPoint + (Size)e.Location);
-        }
+        
 
-        
-        
+
+
+
 
     }
 }
