@@ -7,44 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading;              //for Sleep
 using System.Windows.Forms;
-using WMPLib;           //for WindowsMediaPlayer
-
+using System.Media;                  //for SoundPlayer
 namespace RSP
 {
     public partial class GameMode : Form
     {
-        string UserHand = "" , CompHand = "";
-        int UserWin = 0,
-            UserLose = 0,
-            UserDraw = 0;
-        int MyScore = 0;
-
-        Random cpuRand = new Random();
-
-
-
-
-
-        public WindowsMediaPlayer music = new WindowsMediaPlayer(); 
+        //public WindowsMediaPlayer music = new WindowsMediaPlayer(); 
+        SoundPlayer music = new SoundPlayer();
         public GameMode()
         {
             InitializeComponent();
 
             this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
-            music.URL = "C:/Users/RadeON-SC/Desktop/запуск.mp3";
-            music.settings.balance = music.settings.volume / 2;
 
-            //Show.score();
+            music.Stream = Properties.Resources.music01;
         }
 
         public void PlayMusic_Click(object sender, EventArgs e)//запуск музыки
         {
-            music.URL = "C:/Users/RadeON-SC/Desktop/Tones and I - Dance Monkey.mp3";
-            music.controls.play();
+            music.Play();
         }
         public void StopMusic_Click(object sender, EventArgs e)//пауза
         {
-            music.controls.pause();
+            music.Stop();
         }
 
 
@@ -86,7 +71,7 @@ namespace RSP
                 Thread.Sleep(500);
                 MessageBox.Show("Всего хорошего!\nДля выхода нажмите <ok>", "Exit.",
                                  MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
+
                 this.Close();
             }
         }
@@ -99,7 +84,6 @@ namespace RSP
             ExitGM.ForeColor = Color.White;
         }
 
-       
 
         private void SvernutGM_Click(object sender, EventArgs e)//свернуть окно
         {
@@ -116,11 +100,71 @@ namespace RSP
 
 
 
-        
+        public int UserWin;
+        public int CompWin;
+        public int UCDraw;
+
+        public int cpuChoose;
+        Random rnd = new Random();
+        //выбор компа
+        public int cpuRndChoose()//выбор компа
+        {
+            cpuChoose = rnd.Next(1, 4);
+            if (cpuChoose == 1)
+                CompsAsk.Image = Properties.Resources.crock;
+            if (cpuChoose == 2)
+                CompsAsk.Image = Properties.Resources.csccissors;
+            if (cpuChoose == 3)
+                CompsAsk.Image = Properties.Resources.cpaper;
+            return cpuChoose;
+        }
 
 
+        public int MyChoose = 0;//дальнейшее значение предмета будет записан в майчуз
+        public void Rock_Click(object sender, EventArgs e)//камень
+        {
+            MyChoose = 1;
+            UsersAsk.Image = Properties.Resources.urock;
+            Score(MyChoose, cpuRndChoose());
+        }
+        public void Scissors_Click(object sender, EventArgs e)//ножницы
+        {
+            MyChoose = 2;
+            UsersAsk.Image = Properties.Resources.uscissors;
+            Score(MyChoose, cpuRndChoose());
+        }
+        public void Paper_Click(object sender, EventArgs e)//бумага
+        {
+            MyChoose = 3;
+            UsersAsk.Image = Properties.Resources.upaper;
+            Score(MyChoose, cpuRndChoose());
+        }
 
 
+        public void Score(int my, int cpu)
+        {
+            if ( ((my == 1) && (cpu == 2)) || ( (my == 2) && (cpu == 3) ) || ( (my == 3) && (cpu == 1)) )
+            {
+                UserWin++;
+                W.Text = Convert.ToString(UserWin);
+            }
+            if (((my == 2) && (cpu == 1)) || ((my == 3) && (cpu == 2)) || ((my == 1) && (cpu == 3)) )
+            {
+                CompWin++;
+                L.Text = Convert.ToString(CompWin);
+            }
+
+            if (my == cpu)
+            {
+                UCDraw++;
+                D.Text = Convert.ToString(UCDraw);
+            }
+
+            
+           
+
+
+        }
 
     }
 }

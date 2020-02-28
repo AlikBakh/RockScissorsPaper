@@ -8,31 +8,31 @@ using System.Text;
 using System.Threading;              //for Sleep
 using System.Windows.Forms;
 using WMPLib;           //for WindowsMediaPlayer
+using System.Media;
 /// </summary>
 
 namespace RSP
 {
     public partial class RSP : Form
     {
-        public WindowsMediaPlayer music = new WindowsMediaPlayer();
+        SoundPlayer music = new SoundPlayer();
         public RSP()
         {
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана    
-            music.URL = "C:/Users/RadeON-SC/Desktop/запуск.mp3";
-            music.settings.balance = music.settings.volume / 2;
+
+            music.Stream = Properties.Resources.music01;
         }
 
 
         //музло     
         public void PlayMusic_Click(object sender, EventArgs e)//запуск музыки
         {
-            music.URL = "C:/Users/RadeON-SC/Desktop/Tones and I - Dance Monkey.mp3";
-            music.controls.play();
+            music.Play();
         }
         public void StopMusic_Click(object sender, EventArgs e)//пауза
         {
-            music.controls.pause();
+            music.Stop();
         }
 
 
@@ -105,7 +105,7 @@ namespace RSP
 
         private void PlayTheGame_Click(object sender, EventArgs e)//кнопка выбора режима и начала игры;
         {
-            music.controls.pause();
+            
             GameMode GamemodeForm = new GameMode();
             GamemodeForm.ShowDialog();
         }

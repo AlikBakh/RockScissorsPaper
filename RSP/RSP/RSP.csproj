@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +32,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -54,6 +58,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="RSP.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,15 +73,10 @@
       <DependentUpon>GameMode.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="RSP.resx">
       <DependentUpon>RSP.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,7 +97,30 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Images\pause.png" />
+    <Content Include="Images\some png\ask.png" />
+    <Content Include="Images\some png\comps rame.png" />
+    <Content Include="Images\some png\pause.png" />
+    <Content Include="Images\some png\users frame.png" />
+    <None Include="Resources\head-icon-6535.png" />
+    <None Include="Resources\юзер.bmp" />
+    <None Include="Resources\фон.png" />
+    <None Include="Resources\фон.bmp" />
+    <None Include="Resources\music01.wav" />
+    <None Include="Resources\csccissors.png" />
+    <None Include="Resources\crock.png" />
+    <None Include="Resources\cpaper.png" />
+    <None Include="Resources\uscissors.png" />
+    <None Include="Resources\urock.png" />
+    <None Include="Resources\upaper.png" />
+    <None Include="Resources\к камень.png" />
+    <None Include="Resources\CompAsk1.png" />
+    <None Include="Resources\UserAsk1.png" />
+    <None Include="Resources\UserAsk.png" />
+    <None Include="Resources\CompAsk.png" />
+    <None Include="Resources\каменная стена1.jpg" />
+    <None Include="Resources\robot-icons-30512.png" />
+    <None Include="Resources\pause.png" />
+    <None Include="Resources\comps rame.png" />
     <None Include="Resources\каменная стена.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -115,9 +142,6 @@
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Images\some png\" />
-    <Folder Include="Images\user%27s\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
