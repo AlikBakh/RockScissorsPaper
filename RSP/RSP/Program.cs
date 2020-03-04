@@ -17,7 +17,7 @@ namespace RSP
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RSP());
+            Application.Run(new RSPstart());
         }
     }
 }

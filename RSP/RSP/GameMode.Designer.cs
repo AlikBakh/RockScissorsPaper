@@ -37,8 +37,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.CompsAsk = new System.Windows.Forms.PictureBox();
             this.UsersAsk = new System.Windows.Forms.PictureBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.Поражений = new System.Windows.Forms.Label();
             this.L = new System.Windows.Forms.Label();
             this.D = new System.Windows.Forms.Label();
@@ -86,7 +84,7 @@
             this.SvernutGM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SvernutGM.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SvernutGM.ForeColor = System.Drawing.Color.White;
-            this.SvernutGM.Location = new System.Drawing.Point(997, 1);
+            this.SvernutGM.Location = new System.Drawing.Point(1022, 2);
             this.SvernutGM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SvernutGM.Name = "SvernutGM";
             this.SvernutGM.Size = new System.Drawing.Size(21, 27);
@@ -103,7 +101,7 @@
             this.ExitGM.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitGM.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitGM.ForeColor = System.Drawing.Color.White;
-            this.ExitGM.Location = new System.Drawing.Point(1032, 4);
+            this.ExitGM.Location = new System.Drawing.Point(1042, 2);
             this.ExitGM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ExitGM.Name = "ExitGM";
             this.ExitGM.Size = new System.Drawing.Size(23, 24);
@@ -125,8 +123,6 @@
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.CompsAsk);
             this.panel1.Controls.Add(this.UsersAsk);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.Поражений);
             this.panel1.Controls.Add(this.L);
             this.panel1.Controls.Add(this.D);
@@ -154,7 +150,7 @@
             // CompsAsk
             // 
             this.CompsAsk.Image = global::RSP.Properties.Resources.CompAsk1;
-            this.CompsAsk.Location = new System.Drawing.Point(647, 197);
+            this.CompsAsk.Location = new System.Drawing.Point(647, 216);
             this.CompsAsk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CompsAsk.Name = "CompsAsk";
             this.CompsAsk.Size = new System.Drawing.Size(159, 128);
@@ -167,39 +163,13 @@
             this.UsersAsk.ErrorImage = null;
             this.UsersAsk.Image = global::RSP.Properties.Resources.UserAsk1;
             this.UsersAsk.InitialImage = null;
-            this.UsersAsk.Location = new System.Drawing.Point(365, 197);
+            this.UsersAsk.Location = new System.Drawing.Point(365, 217);
             this.UsersAsk.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UsersAsk.Name = "UsersAsk";
             this.UsersAsk.Size = new System.Drawing.Size(159, 128);
             this.UsersAsk.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.UsersAsk.TabIndex = 13;
             this.UsersAsk.TabStop = false;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.DarkRed;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Silver;
-            this.label2.Location = new System.Drawing.Point(577, 134);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 31);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "s Comp";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.DarkRed;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.label1.Location = new System.Drawing.Point(480, 134);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(99, 31);
-            this.label1.TabIndex = 11;
-            this.label1.Text = "User v";
             // 
             // Поражений
             // 
@@ -279,6 +249,7 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel3.ForeColor = System.Drawing.Color.Red;
             this.panel3.Location = new System.Drawing.Point(379, 22);
             this.panel3.Margin = new System.Windows.Forms.Padding(4);
@@ -292,6 +263,7 @@
             this.panel4.BackColor = System.Drawing.Color.Transparent;
             this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.ForeColor = System.Drawing.SystemColors.Control;
             this.panel4.Location = new System.Drawing.Point(667, 22);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
@@ -366,12 +338,12 @@
             this.HelpGM.Cursor = System.Windows.Forms.Cursors.Help;
             this.HelpGM.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HelpGM.ForeColor = System.Drawing.Color.Black;
-            this.HelpGM.Location = new System.Drawing.Point(904, 502);
+            this.HelpGM.Location = new System.Drawing.Point(936, 495);
             this.HelpGM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HelpGM.Name = "HelpGM";
-            this.HelpGM.Size = new System.Drawing.Size(152, 27);
+            this.HelpGM.Size = new System.Drawing.Size(143, 27);
             this.HelpGM.TabIndex = 2;
-            this.HelpGM.Text = "Правила игры";
+            this.HelpGM.Text = "Game\'s rules";
             this.HelpGM.Click += new System.EventHandler(this.HelpGM_Click);
             // 
             // DataGM
@@ -403,7 +375,7 @@
             // CompsFrame
             // 
             this.CompsFrame.Image = ((System.Drawing.Image)(resources.GetObject("CompsFrame.Image")));
-            this.CompsFrame.Location = new System.Drawing.Point(635, 185);
+            this.CompsFrame.Location = new System.Drawing.Point(635, 202);
             this.CompsFrame.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.CompsFrame.Name = "CompsFrame";
             this.CompsFrame.Size = new System.Drawing.Size(181, 158);
@@ -414,7 +386,7 @@
             // UsersFrame
             // 
             this.UsersFrame.Image = ((System.Drawing.Image)(resources.GetObject("UsersFrame.Image")));
-            this.UsersFrame.Location = new System.Drawing.Point(355, 185);
+            this.UsersFrame.Location = new System.Drawing.Point(355, 202);
             this.UsersFrame.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UsersFrame.Name = "UsersFrame";
             this.UsersFrame.Size = new System.Drawing.Size(181, 158);
@@ -434,7 +406,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GameMode";
-            this.Text = "oi";
+            this.Text = "GameMode";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -465,8 +437,6 @@
         private System.Windows.Forms.Label Win;
         private System.Windows.Forms.Label Draw;
         private System.Windows.Forms.Label Поражений;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox UsersAsk;
         private System.Windows.Forms.PictureBox CompsAsk;

@@ -63,11 +63,23 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RSP.cs">
+    <Compile Include="RSPstart.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RSP.Designer.cs">
-      <DependentUpon>RSP.cs</DependentUpon>
+    <Compile Include="RSPstart.Designer.cs">
+      <DependentUpon>RSPstart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Select.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select.Designer.cs">
+      <DependentUpon>Select.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwoPlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwoPlayers.Designer.cs">
+      <DependentUpon>TwoPlayers.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="GameMode.resx">
       <DependentUpon>GameMode.cs</DependentUpon>
@@ -77,8 +89,14 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RSP.resx">
-      <DependentUpon>RSP.cs</DependentUpon>
+    <EmbeddedResource Include="RSPstart.resx">
+      <DependentUpon>RSPstart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select.resx">
+      <DependentUpon>Select.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwoPlayers.resx">
+      <DependentUpon>TwoPlayers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
       <Link>.editorconfig</Link>
@@ -101,6 +119,9 @@
     <Content Include="Images\some png\comps rame.png" />
     <Content Include="Images\some png\pause.png" />
     <Content Include="Images\some png\users frame.png" />
+    <None Include="Resources\user21.png" />
+    <None Include="Resources\user2.png" />
+    <None Include="Resources\User2.bmp" />
     <None Include="Resources\head-icon-6535.png" />
     <None Include="Resources\юзер.bmp" />
     <None Include="Resources\фон.png" />

@@ -8,18 +8,17 @@ using System.Text;
 using System.Threading;              //for Sleep
 using System.Windows.Forms;
 using System.Media;                  //for SoundPlayer
+using System.Globalization;
+
 namespace RSP
 {
     public partial class GameMode : Form
     {
-        //public WindowsMediaPlayer music = new WindowsMediaPlayer(); 
         SoundPlayer music = new SoundPlayer();
         public GameMode()
         {
             InitializeComponent();
-
-            this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
-
+            StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
             music.Stream = Properties.Resources.music01;
         }
 
@@ -68,11 +67,11 @@ namespace RSP
                                                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (ChooseToExit == DialogResult.Yes)
             {
-                Thread.Sleep(500);
                 MessageBox.Show("Всего хорошего!\nДля выхода нажмите <ok>", "Exit.",
                                  MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-                this.Close();
+                RSPstart rspStart = new RSPstart();
+                rspStart.Show();
+                Close();
             }
         }
         private void ExitGM_MouseEnter(object sender, EventArgs e)//регулировка цвета при наведении на кнопку "выход"
@@ -107,7 +106,7 @@ namespace RSP
         public int cpuChoose;
         Random rnd = new Random();
         //выбор компа
-        public int cpuRndChoose()//выбор компа
+        public int cpuRndChoose()
         {
             cpuChoose = rnd.Next(1, 4);
             if (cpuChoose == 1)
@@ -144,27 +143,21 @@ namespace RSP
         public void Score(int my, int cpu)
         {
             if ( ((my == 1) && (cpu == 2)) || ( (my == 2) && (cpu == 3) ) || ( (my == 3) && (cpu == 1)) )
-            {
+            {//победа
                 UserWin++;
                 W.Text = Convert.ToString(UserWin);
             }
             if (((my == 2) && (cpu == 1)) || ((my == 3) && (cpu == 2)) || ((my == 1) && (cpu == 3)) )
-            {
+            {//поражение
                 CompWin++;
                 L.Text = Convert.ToString(CompWin);
             }
 
             if (my == cpu)
-            {
+            {//ничья
                 UCDraw++;
                 D.Text = Convert.ToString(UCDraw);
             }
-
-            
-           
-
-
         }
-
     }
 }

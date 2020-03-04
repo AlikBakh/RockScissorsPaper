@@ -22,17 +22,5 @@ namespace RSP.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.UserScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("label1")]
-        public string Data {
-            get {
-                return ((string)(this["Data"]));
-            }
-            set {
-                this["Data"] = value;
-            }
-        }
     }
 }
