@@ -17,3 +17,6 @@ dotnet_diagnostic.CS0219.severity = none
 
 # IDE0059: Ненужное присваивание значения
 csharp_style_unused_value_assignment_preference = discard_variable:none
+
+# IDE0055: Исправить форматирование
+dotnet_diagnostic.IDE0055.severity = none

@@ -33,20 +33,23 @@
             this.ExitS = new System.Windows.Forms.Label();
             this.UserButton = new System.Windows.Forms.Button();
             this.Sopernik = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.SvernutS = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.CompButton);
-            this.panel1.Controls.Add(this.ExitS);
             this.panel1.Controls.Add(this.UserButton);
             this.panel1.Controls.Add(this.Sopernik);
-            this.panel1.Location = new System.Drawing.Point(-1, 0);
+            this.panel1.Location = new System.Drawing.Point(-1, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(543, 261);
+            this.panel1.Size = new System.Drawing.Size(542, 238);
             this.panel1.TabIndex = 0;
             // 
             // CompButton
@@ -67,7 +70,7 @@
             this.ExitS.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitS.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitS.ForeColor = System.Drawing.Color.White;
-            this.ExitS.Location = new System.Drawing.Point(516, 0);
+            this.ExitS.Location = new System.Drawing.Point(516, 5);
             this.ExitS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ExitS.Name = "ExitS";
             this.ExitS.Size = new System.Drawing.Size(23, 24);
@@ -94,11 +97,39 @@
             this.Sopernik.BackColor = System.Drawing.Color.Transparent;
             this.Sopernik.Font = new System.Drawing.Font("Impact", 25.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Sopernik.ForeColor = System.Drawing.Color.White;
-            this.Sopernik.Location = new System.Drawing.Point(60, 9);
+            this.Sopernik.Location = new System.Drawing.Point(60, 30);
             this.Sopernik.Name = "Sopernik";
             this.Sopernik.Size = new System.Drawing.Size(420, 53);
             this.Sopernik.TabIndex = 0;
             this.Sopernik.Text = "Выберите соперника";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.Controls.Add(this.SvernutS);
+            this.panel2.Controls.Add(this.ExitS);
+            this.panel2.Location = new System.Drawing.Point(3, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(546, 29);
+            this.panel2.TabIndex = 9;
+            // 
+            // SvernutS
+            // 
+            this.SvernutS.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.SvernutS.AutoSize = true;
+            this.SvernutS.BackColor = System.Drawing.Color.Transparent;
+            this.SvernutS.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.SvernutS.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SvernutS.ForeColor = System.Drawing.Color.White;
+            this.SvernutS.Location = new System.Drawing.Point(496, 3);
+            this.SvernutS.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.SvernutS.Name = "SvernutS";
+            this.SvernutS.Size = new System.Drawing.Size(21, 27);
+            this.SvernutS.TabIndex = 9;
+            this.SvernutS.Text = "-";
+            this.SvernutS.Click += new System.EventHandler(this.SvernutS_Click);
+            this.SvernutS.MouseEnter += new System.EventHandler(this.SvernutS_MouseEnter);
+            this.SvernutS.MouseLeave += new System.EventHandler(this.SvernutS_MouseLeave);
             // 
             // Select
             // 
@@ -106,12 +137,18 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(540, 225);
+            this.ControlBox = false;
             this.Controls.Add(this.panel1);
-            this.HelpButton = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Select";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Select";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -123,5 +160,7 @@
         private System.Windows.Forms.Button UserButton;
         private System.Windows.Forms.Label Sopernik;
         private System.Windows.Forms.Label ExitS;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label SvernutS;
     }
 }

@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
+using System.Media;
 using System.Threading;              //for Sleep
 using System.Windows.Forms;
-using System.Media;
 
 namespace RSP
 {
@@ -19,6 +14,17 @@ namespace RSP
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
             music.Stream = Properties.Resources.music01;
+
+            RockU2.Enabled = false;
+            ScissorsU2.Enabled = false;
+            PaperU2.Enabled = false;
+
+            User1Ask.Image = null;
+            User2Ask.Image = null;
+
+            User1Ask.Visible = false;
+            User2Ask.Visible = false;
+
         }
 
         public void PlayMusic_Click(object sender, EventArgs e)//запуск музыки
@@ -70,7 +76,7 @@ namespace RSP
                 MessageBox.Show("Всего хорошего!\nДля выхода нажмите <ok>", "Exit.",
                                  MessageBoxButtons.OK, MessageBoxIcon.Information);
                 RSPstart rspStart = new RSPstart();
-                rspStart.Show(); 
+                rspStart.Show();
                 this.Close();
             }
         }
@@ -99,67 +105,191 @@ namespace RSP
 
 
 
+
+
+        public int User1Choose = 0;//дальнейшее значение предмета будет записан в майчуз
+
+        
+        public void RockU1_Click(object sender, EventArgs e)//камень
+        {
+            User1Choose = 1;
+
+            //User1Ask.Image = Properties.Resources.urock;
+            Score(User1Choose, User2Choose);
+
+            RockU1.Enabled = false;
+            ScissorsU1.Enabled = false;
+            PaperU1.Enabled = false;
+
+            RockU2.Enabled = true;
+            ScissorsU2.Enabled = true;
+            PaperU2.Enabled = true;
+
+            User1Ask.Visible = false;
+            User2Ask.Visible = false;
+        }
+        public void ScissorsU1_Click(object sender, EventArgs e)//ножницы
+        {
+            User1Choose = 2;
+            //User1Ask.Image = Properties.Resources.uscissors;
+            Score(User1Choose, User2Choose);
+
+            RockU1.Enabled = false;
+            ScissorsU1.Enabled = false;
+            PaperU1.Enabled = false;
+
+            RockU2.Enabled = true;
+            ScissorsU2.Enabled = true;
+            PaperU2.Enabled = true;
+
+            User1Ask.Visible = false;
+            User2Ask.Visible = false;
+        }
+        public void PaperU1_Click(object sender, EventArgs e)//бумага
+        {
+            User1Choose = 3;
+            //User1Ask.Image = Properties.Resources.upaper;
+            Score(User1Choose, User2Choose);
+            
+            RockU1.Enabled = false;
+            ScissorsU1.Enabled = false;
+            PaperU1.Enabled = false;
+
+            RockU2.Enabled = true;
+            ScissorsU2.Enabled = true;
+            PaperU2.Enabled = true;
+
+            User1Ask.Visible = false;
+            User2Ask.Visible = false;
+        }
+
+
+
+        public int User2Choose = 0;//дальнейшее значение предмета будет записан в майчуз
+        public void RockU2_Click(object sender, EventArgs e)//камень
+        {
+            User2Choose = 1;
+            //User2Ask.Image = Properties.Resources.crock;
+            Score(User1Choose, User2Choose);
+
+            RockU2.Enabled = false;
+            ScissorsU2.Enabled = false;
+            PaperU2.Enabled = false;
+            
+            RockU1.Enabled = true;
+            ScissorsU1.Enabled = true;
+            PaperU1.Enabled = true;
+
+            User1Ask.Visible = true;
+            User2Ask.Visible = true;
+        }
+        public void ScissorsU2_Click(object sender, EventArgs e)//ножницы
+        {
+            User2Choose = 2;
+            //User2Ask.Image = Properties.Resources.csccissors;
+            Score(User1Choose, User2Choose);
+
+            RockU2.Enabled = false;
+            ScissorsU2.Enabled = false;
+            PaperU2.Enabled = false;
+            
+            RockU1.Enabled = true;
+            ScissorsU1.Enabled = true;
+            PaperU1.Enabled = true;
+
+            User1Ask.Visible = true;
+            User2Ask.Visible = true;
+        }
+        public void PaperU2_Click(object sender, EventArgs e)//бумага
+        {
+            User2Choose = 3;
+
+            //User2Ask.Image = Properties.Resources.cpaper;
+            Score(User1Choose, User2Choose);
+
+            RockU2.Enabled = false;
+            ScissorsU2.Enabled = false;
+            PaperU2.Enabled = false;
+            
+            RockU1.Enabled = true;
+            ScissorsU1.Enabled = true;
+            PaperU1.Enabled = true;
+
+            User1Ask.Visible = true;
+            User2Ask.Visible = true;
+        }
+
+
+
         public int User1Win;
         public int User2Win;
         public int U12Draw;
-
-        public int cpuChoose;
-        Random rnd = new Random();
-        //выбор компа
-        public int cpuRndChoose()//выбор компа
-        {
-            cpuChoose = rnd.Next(1, 4);
-            if (cpuChoose == 1)
-                User2Ask.Image = Properties.Resources.crock;
-            if (cpuChoose == 2)
-                User2Ask.Image = Properties.Resources.csccissors;
-            if (cpuChoose == 3)
-                User2Ask.Image = Properties.Resources.cpaper;
-            return cpuChoose;
-        }
-
-
-        public int MyChoose = 0;//дальнейшее значение предмета будет записан в майчуз
-        public void Rock_Click(object sender, EventArgs e)//камень
-        {
-            MyChoose = 1;
-            User1Ask.Image = Properties.Resources.urock;
-            Score(MyChoose, cpuRndChoose());
-        }
-        public void Scissors_Click(object sender, EventArgs e)//ножницы
-        {
-            MyChoose = 2;
-            User1Ask.Image = Properties.Resources.uscissors;
-            Score(MyChoose, cpuRndChoose());
-        }
-        public void Paper_Click(object sender, EventArgs e)//бумага
-        {
-            MyChoose = 3;
-            User1Ask.Image = Properties.Resources.upaper;
-            Score(MyChoose, cpuRndChoose());
-        }
-
-
         public void Score(int user1, int user2)
         {
+            if (User1Choose == 1)
+                User1Ask.Image = Properties.Resources.urock;
+            if (User1Choose == 2)
+                User1Ask.Image = Properties.Resources.uscissors;
+            if (User1Choose == 3)
+                User1Ask.Image = Properties.Resources.upaper;
+
+            if (User2Choose == 1)
+                User2Ask.Image = Properties.Resources.crock;
+            if (User2Choose == 2)
+                User2Ask.Image = Properties.Resources.csccissors;
+            if (User2Choose == 3)
+                User2Ask.Image = Properties.Resources.cpaper;
+
             if (((user1 == 1) && (user2 == 2)) || ((user1 == 2) && (user2 == 3)) || ((user1 == 3) && (user2 == 1)))
             {
                 User1Win++;
                 W.Text = Convert.ToString(User1Win);
+                User1Choose = 0;
+                User2Choose = 0;
+
+                RockU1.Enabled = true;
+                ScissorsU1.Enabled = true;
+                PaperU1.Enabled = true;
+
+                RockU2.Enabled = true;
+                ScissorsU2.Enabled = true;
+                PaperU2.Enabled = true;
+
+
             }
             if (((user1 == 2) && (user2 == 1)) || ((user1 == 3) && (user2 == 2)) || ((user1 == 1) && (user2 == 3)))
             {
                 User2Win++;
                 L.Text = Convert.ToString(User2Win);
-            }
+                User1Choose = 0;
+                User2Choose = 0;
 
+                RockU1.Enabled = true;
+                ScissorsU1.Enabled = true;
+                PaperU1.Enabled = true;
+
+                RockU2.Enabled = true;
+                ScissorsU2.Enabled = true;
+                PaperU2.Enabled = true;
+            }
             if (user1 == user2)
             {
                 U12Draw++;
                 D.Text = Convert.ToString(U12Draw);
+                User1Choose = 0;
+                User2Choose = 0;
+
+                RockU1.Enabled = true;
+                ScissorsU1.Enabled = true;
+                PaperU1.Enabled = true;
+
+                RockU2.Enabled = true;
+                ScissorsU2.Enabled = true;
+                PaperU2.Enabled = true;
             }
 
-
+            //Thread.Sleep(1000);
+            
         }
     }
 }

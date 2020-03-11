@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.ChangeLanguage = new System.Windows.Forms.Button();
             this.PlayTheGame = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
@@ -60,7 +59,6 @@
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.ChangeLanguage);
             this.panel1.Controls.Add(this.PlayTheGame);
             this.panel1.Controls.Add(this.panel5);
             this.panel1.Controls.Add(this.panel4);
@@ -78,15 +76,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(766, 503);
             this.panel1.TabIndex = 0;
-            // 
-            // ChangeLanguage
-            // 
-            this.ChangeLanguage.Location = new System.Drawing.Point(722, 30);
-            this.ChangeLanguage.Name = "ChangeLanguage";
-            this.ChangeLanguage.Size = new System.Drawing.Size(31, 23);
-            this.ChangeLanguage.TabIndex = 16;
-            this.ChangeLanguage.Text = "ru";
-            this.ChangeLanguage.UseVisualStyleBackColor = true;
             // 
             // PlayTheGame
             // 
@@ -144,7 +133,7 @@
             this.KNB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.KNB.Font = new System.Drawing.Font("Segoe Print", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.KNB.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.KNB.Location = new System.Drawing.Point(-1, 25);
+            this.KNB.Location = new System.Drawing.Point(-2, 24);
             this.KNB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.KNB.Name = "KNB";
             this.KNB.Size = new System.Drawing.Size(766, 79);
@@ -304,6 +293,5 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button ChangeLanguage;
     }
 }

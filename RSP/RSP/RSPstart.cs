@@ -96,10 +96,10 @@ namespace RSP
 
         private void PlayTheGame_Click(object sender, EventArgs e)//кнопка выбора режима и начала игры;
         {
-
-            Select selectForm = new Select();           
-            selectForm.ShowDialog();
             this.Hide();
+            Select selectForm = new Select();
+            selectForm.ShowDialog();
+            
 
         }
 

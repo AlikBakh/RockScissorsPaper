@@ -20,6 +20,7 @@
             base.Dispose(disposing);
         }
 
+        
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -42,12 +43,15 @@
             this.Draw = new System.Windows.Forms.Label();
             this.W = new System.Windows.Forms.Label();
             this.Win = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
+            this.User1 = new System.Windows.Forms.Panel();
+            this.User2 = new System.Windows.Forms.Panel();
             this.PlayMusicTP = new System.Windows.Forms.Button();
             this.StopMusicTP = new System.Windows.Forms.Button();
+            this.ScissorsU2 = new System.Windows.Forms.Button();
             this.ScissorsU1 = new System.Windows.Forms.Button();
             this.PaperU2 = new System.Windows.Forms.Button();
+            this.PaperU1 = new System.Windows.Forms.Button();
+            this.RockU2 = new System.Windows.Forms.Button();
             this.RockU1 = new System.Windows.Forms.Button();
             this.HelpTP = new System.Windows.Forms.Label();
             this.DataTP = new System.Windows.Forms.Label();
@@ -84,7 +88,7 @@
             this.SvernutTP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.SvernutTP.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SvernutTP.ForeColor = System.Drawing.Color.White;
-            this.SvernutTP.Location = new System.Drawing.Point(1010, 1);
+            this.SvernutTP.Location = new System.Drawing.Point(1027, 1);
             this.SvernutTP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.SvernutTP.Name = "SvernutTP";
             this.SvernutTP.Size = new System.Drawing.Size(21, 27);
@@ -101,7 +105,7 @@
             this.ExitTP.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ExitTP.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ExitTP.ForeColor = System.Drawing.Color.White;
-            this.ExitTP.Location = new System.Drawing.Point(1032, 4);
+            this.ExitTP.Location = new System.Drawing.Point(1049, 4);
             this.ExitTP.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ExitTP.Name = "ExitTP";
             this.ExitTP.Size = new System.Drawing.Size(23, 24);
@@ -124,12 +128,15 @@
             this.panel1.Controls.Add(this.Draw);
             this.panel1.Controls.Add(this.W);
             this.panel1.Controls.Add(this.Win);
-            this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.User1);
+            this.panel1.Controls.Add(this.User2);
             this.panel1.Controls.Add(this.PlayMusicTP);
             this.panel1.Controls.Add(this.StopMusicTP);
+            this.panel1.Controls.Add(this.ScissorsU2);
             this.panel1.Controls.Add(this.ScissorsU1);
             this.panel1.Controls.Add(this.PaperU2);
+            this.panel1.Controls.Add(this.PaperU1);
+            this.panel1.Controls.Add(this.RockU2);
             this.panel1.Controls.Add(this.RockU1);
             this.panel1.Controls.Add(this.HelpTP);
             this.panel1.Controls.Add(this.DataTP);
@@ -238,33 +245,33 @@
             this.Win.TabIndex = 12;
             this.Win.Text = "Winning:";
             // 
-            // panel3
+            // User1
             // 
-            this.panel3.AutoSize = true;
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.ForeColor = System.Drawing.Color.Red;
-            this.panel3.Location = new System.Drawing.Point(375, 17);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(124, 111);
-            this.panel3.TabIndex = 10;
+            this.User1.AutoSize = true;
+            this.User1.BackColor = System.Drawing.Color.Transparent;
+            this.User1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("User1.BackgroundImage")));
+            this.User1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.User1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.User1.ForeColor = System.Drawing.Color.Red;
+            this.User1.Location = new System.Drawing.Point(375, 17);
+            this.User1.Margin = new System.Windows.Forms.Padding(4);
+            this.User1.Name = "User1";
+            this.User1.Size = new System.Drawing.Size(124, 111);
+            this.User1.TabIndex = 10;
             // 
-            // panel4
+            // User2
             // 
-            this.panel4.AutoSize = true;
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::RSP.Properties.Resources.user21;
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel4.Location = new System.Drawing.Point(663, 17);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(124, 111);
-            this.panel4.TabIndex = 10;
+            this.User2.AutoSize = true;
+            this.User2.BackColor = System.Drawing.Color.Transparent;
+            this.User2.BackgroundImage = global::RSP.Properties.Resources.user21;
+            this.User2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.User2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.User2.ForeColor = System.Drawing.SystemColors.Control;
+            this.User2.Location = new System.Drawing.Point(663, 17);
+            this.User2.Margin = new System.Windows.Forms.Padding(4);
+            this.User2.Name = "User2";
+            this.User2.Size = new System.Drawing.Size(124, 111);
+            this.User2.TabIndex = 10;
             // 
             // PlayMusicTP
             // 
@@ -293,6 +300,17 @@
             this.StopMusicTP.UseVisualStyleBackColor = true;
             this.StopMusicTP.Click += new System.EventHandler(this.StopMusic_Click);
             // 
+            // ScissorsU2
+            // 
+            this.ScissorsU2.Location = new System.Drawing.Point(977, 273);
+            this.ScissorsU2.Margin = new System.Windows.Forms.Padding(4);
+            this.ScissorsU2.Name = "ScissorsU2";
+            this.ScissorsU2.Size = new System.Drawing.Size(100, 28);
+            this.ScissorsU2.TabIndex = 5;
+            this.ScissorsU2.Text = "Scissors";
+            this.ScissorsU2.UseVisualStyleBackColor = true;
+            this.ScissorsU2.Click += new System.EventHandler(this.ScissorsU2_Click);
+            // 
             // ScissorsU1
             // 
             this.ScissorsU1.Location = new System.Drawing.Point(20, 273);
@@ -302,18 +320,40 @@
             this.ScissorsU1.TabIndex = 5;
             this.ScissorsU1.Text = "Scissors";
             this.ScissorsU1.UseVisualStyleBackColor = true;
-            this.ScissorsU1.Click += new System.EventHandler(this.Scissors_Click);
+            this.ScissorsU1.Click += new System.EventHandler(this.ScissorsU1_Click);
             // 
             // PaperU2
             // 
-            this.PaperU2.Location = new System.Drawing.Point(20, 309);
+            this.PaperU2.Location = new System.Drawing.Point(977, 309);
             this.PaperU2.Margin = new System.Windows.Forms.Padding(4);
             this.PaperU2.Name = "PaperU2";
             this.PaperU2.Size = new System.Drawing.Size(100, 28);
             this.PaperU2.TabIndex = 4;
             this.PaperU2.Text = "Paper";
             this.PaperU2.UseVisualStyleBackColor = true;
-            this.PaperU2.Click += new System.EventHandler(this.Paper_Click);
+            this.PaperU2.Click += new System.EventHandler(this.PaperU2_Click);
+            // 
+            // PaperU1
+            // 
+            this.PaperU1.Location = new System.Drawing.Point(20, 309);
+            this.PaperU1.Margin = new System.Windows.Forms.Padding(4);
+            this.PaperU1.Name = "PaperU1";
+            this.PaperU1.Size = new System.Drawing.Size(100, 28);
+            this.PaperU1.TabIndex = 4;
+            this.PaperU1.Text = "Paper";
+            this.PaperU1.UseVisualStyleBackColor = true;
+            this.PaperU1.Click += new System.EventHandler(this.PaperU1_Click);
+            // 
+            // RockU2
+            // 
+            this.RockU2.Location = new System.Drawing.Point(977, 237);
+            this.RockU2.Margin = new System.Windows.Forms.Padding(4);
+            this.RockU2.Name = "RockU2";
+            this.RockU2.Size = new System.Drawing.Size(100, 28);
+            this.RockU2.TabIndex = 3;
+            this.RockU2.Text = "Rock";
+            this.RockU2.UseVisualStyleBackColor = true;
+            this.RockU2.Click += new System.EventHandler(this.RockU2_Click);
             // 
             // RockU1
             // 
@@ -324,7 +364,7 @@
             this.RockU1.TabIndex = 3;
             this.RockU1.Text = "Rock";
             this.RockU1.UseVisualStyleBackColor = true;
-            this.RockU1.Click += new System.EventHandler(this.Rock_Click);
+            this.RockU1.Click += new System.EventHandler(this.RockU1_Click);
             // 
             // HelpTP
             // 
@@ -425,12 +465,12 @@
         private System.Windows.Forms.Label Draw;
         public System.Windows.Forms.Label W;
         private System.Windows.Forms.Label Win;
-        private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel User1;
+        private System.Windows.Forms.Panel User2;
         public System.Windows.Forms.Button PlayMusicTP;
         public System.Windows.Forms.Button StopMusicTP;
         public System.Windows.Forms.Button ScissorsU1;
-        public System.Windows.Forms.Button PaperU2;
+        public System.Windows.Forms.Button PaperU1;
         public System.Windows.Forms.Button RockU1;
         private System.Windows.Forms.Label HelpTP;
         private System.Windows.Forms.Label DataTP;
@@ -441,5 +481,8 @@
         private System.Windows.Forms.Label SvernutTP;
         private System.Windows.Forms.Label ExitTP;
         private System.Windows.Forms.Timer timer1;
+        public System.Windows.Forms.Button ScissorsU2;
+        public System.Windows.Forms.Button PaperU2;
+        public System.Windows.Forms.Button RockU2;
     }
 }

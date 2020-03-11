@@ -48,5 +48,18 @@ namespace RSP
         {
             ExitS.ForeColor = Color.White;
         }
+
+        private void SvernutS_Click(object sender, EventArgs e)//свернуть окно
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+        private void SvernutS_MouseEnter(object sender, EventArgs e)//регулировка цвета при наведении на кнопку "свернуть"
+        {
+            SvernutS.ForeColor = Color.Red;
+        }
+        private void SvernutS_MouseLeave(object sender, EventArgs e)//возврат исходного цвета
+        {
+            SvernutS.ForeColor = Color.White;
+        }
     }
 }

@@ -102,7 +102,7 @@ namespace RSP
         public int UserWin;
         public int CompWin;
         public int UCDraw;
-
+        
         public int cpuChoose;
         Random rnd = new Random();
         //выбор компа
