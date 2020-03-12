@@ -121,6 +121,7 @@
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.CompsAsk);
             this.panel1.Controls.Add(this.UsersAsk);
             this.panel1.Controls.Add(this.Поражений);
@@ -129,7 +130,6 @@
             this.panel1.Controls.Add(this.Draw);
             this.panel1.Controls.Add(this.W);
             this.panel1.Controls.Add(this.Win);
-            this.panel1.Controls.Add(this.panel3);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.PlayMusic);
             this.panel1.Controls.Add(this.StopMusic);
@@ -338,12 +338,12 @@
             this.HelpGM.Cursor = System.Windows.Forms.Cursors.Help;
             this.HelpGM.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HelpGM.ForeColor = System.Drawing.Color.Black;
-            this.HelpGM.Location = new System.Drawing.Point(936, 495);
+            this.HelpGM.Location = new System.Drawing.Point(1006, 495);
             this.HelpGM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.HelpGM.Name = "HelpGM";
-            this.HelpGM.Size = new System.Drawing.Size(143, 27);
+            this.HelpGM.Size = new System.Drawing.Size(61, 27);
             this.HelpGM.TabIndex = 2;
-            this.HelpGM.Text = "Game\'s rules";
+            this.HelpGM.Text = "Help";
             this.HelpGM.Click += new System.EventHandler(this.HelpGM_Click);
             // 
             // DataGM
@@ -406,6 +406,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "GameMode";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "GameMode";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();

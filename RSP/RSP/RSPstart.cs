@@ -19,8 +19,6 @@ namespace RSP
         public RSPstart()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана    
-
             music.Stream = Properties.Resources.music01;
         }
 
@@ -97,8 +95,7 @@ namespace RSP
         private void PlayTheGame_Click(object sender, EventArgs e)//кнопка выбора режима и начала игры;
         {
             this.Hide();
-            Select selectForm = new Select();
-            selectForm.ShowDialog();
+            new Select().ShowDialog();
             
 
         }

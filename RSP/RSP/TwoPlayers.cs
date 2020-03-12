@@ -14,13 +14,11 @@ namespace RSP
             InitializeComponent();
             this.StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
             music.Stream = Properties.Resources.music01;
+            this.KeyPreview = true;
 
             RockU2.Enabled = false;
             ScissorsU2.Enabled = false;
             PaperU2.Enabled = false;
-
-            User1Ask.Image = null;
-            User2Ask.Image = null;
 
             User1Ask.Visible = false;
             User2Ask.Visible = false;
@@ -38,6 +36,23 @@ namespace RSP
 
 
 
+        void HotKeys_KeyDown(object sender, KeyEventArgs e)//горячме клавиши
+        {
+            if (e.KeyCode == Keys.Z)
+            {
+                RockU1.PerformClick();// имитируем нажатие button1
+            }
+            if (e.KeyCode == Keys.X)
+            {
+                ScissorsU1.PerformClick();// имитируем нажатие button1
+            }
+            if (e.KeyCode == Keys.C)
+            {
+                PaperU1.PerformClick();// имитируем нажатие button1
+            }
+        }
+
+
         private void timer1_Tick(object sender, EventArgs e)//дата ; время
         {
             timer1.Start();
@@ -48,11 +63,13 @@ namespace RSP
 
         private void HelpGM_Click(object sender, EventArgs e)//Вывод правил игры.
         {
-            MessageBox.Show("     Победитель определяется по следующим 3 правилам:\n" +
+            MessageBox.Show("Горячие клавиши для левого игрока:\n" +
+            "Z-камень , X-ножницы , C - бумага\n\n" +
+            "Победитель определяется по следующим 3 правилам:\n" +
             "-Бумага побеждает камень(«бумага кроет камень»);\n" +
             "-Камень побеждает ножницы(«камень ломает ножницы»);\n" +
-            "-Ножницы побеждают бумагу(«ножницы режут бумагу»).\n\n" +
-            "Если игроки показали одинаковый знак, то засчитывается ничья и счёт остаётся всё тем же.", "Правила игры",
+            "-Ножницы побеждают бумагу(«ножницы режут бумагу»).\n" +
+            "Если игроки показали одинаковый знак, то ничья и счёт остаётся всё тем же.", "Помощь",
              MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
         }
 
@@ -102,8 +119,6 @@ namespace RSP
         {
             SvernutTP.ForeColor = Color.White;
         }
-
-
 
 
 
@@ -243,7 +258,7 @@ namespace RSP
             if (((user1 == 1) && (user2 == 2)) || ((user1 == 2) && (user2 == 3)) || ((user1 == 3) && (user2 == 1)))
             {
                 User1Win++;
-                W.Text = Convert.ToString(User1Win);
+                W.Text = User1Win.ToString();
                 User1Choose = 0;
                 User2Choose = 0;
 
@@ -260,7 +275,7 @@ namespace RSP
             if (((user1 == 2) && (user2 == 1)) || ((user1 == 3) && (user2 == 2)) || ((user1 == 1) && (user2 == 3)))
             {
                 User2Win++;
-                L.Text = Convert.ToString(User2Win);
+                L.Text = User2Win.ToString();
                 User1Choose = 0;
                 User2Choose = 0;
 
@@ -275,21 +290,26 @@ namespace RSP
             if (user1 == user2)
             {
                 U12Draw++;
-                D.Text = Convert.ToString(U12Draw);
+                D.Text = U12Draw.ToString();
                 User1Choose = 0;
                 User2Choose = 0;
 
-                RockU1.Enabled = true;
-                ScissorsU1.Enabled = true;
-                PaperU1.Enabled = true;
+            //    RockU1.Enabled = true;
+            //    ScissorsU1.Enabled = true;
+            //    PaperU1.Enabled = true;
 
-                RockU2.Enabled = true;
-                ScissorsU2.Enabled = true;
-                PaperU2.Enabled = true;
-            }
+            //    RockU2.Enabled = true;
+            //    ScissorsU2.Enabled = true;
+            //    PaperU2.Enabled = true;
+            //
+            }         
+        }        
 
-            //Thread.Sleep(1000);
-            
-        }
+    }
+    public enum Choose { Rock , Scissors , Paper };
+    public interface IGameInterractive
+    {
+        bool Connect();
+        void Step(Choose c);
     }
 }

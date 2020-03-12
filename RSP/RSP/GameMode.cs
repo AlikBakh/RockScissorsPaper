@@ -18,7 +18,6 @@ namespace RSP
         public GameMode()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;//начальная позиция экрана
             music.Stream = Properties.Resources.music01;
         }
 
@@ -43,7 +42,7 @@ namespace RSP
 
         private void HelpGM_Click(object sender, EventArgs e)//Вывод правил игры.
         {
-            MessageBox.Show("     Победитель определяется по следующим 3 правилам:\n" +
+            MessageBox.Show("Победитель определяется по следующим 3 правилам:\n" +
             "-Бумага побеждает камень(«бумага кроет камень»);\n" +
             "-Камень побеждает ножницы(«камень ломает ножницы»);\n" +
             "-Ножницы побеждают бумагу(«ножницы режут бумагу»).\n\n" +
@@ -145,18 +144,18 @@ namespace RSP
             if ( ((my == 1) && (cpu == 2)) || ( (my == 2) && (cpu == 3) ) || ( (my == 3) && (cpu == 1)) )
             {//победа
                 UserWin++;
-                W.Text = Convert.ToString(UserWin);
+                W.Text = UserWin.ToString();
             }
             if (((my == 2) && (cpu == 1)) || ((my == 3) && (cpu == 2)) || ((my == 1) && (cpu == 3)) )
             {//поражение
                 CompWin++;
-                L.Text = Convert.ToString(CompWin);
+                L.Text = CompWin.ToString();
             }
 
             if (my == cpu)
             {//ничья
                 UCDraw++;
-                D.Text = Convert.ToString(UCDraw);
+                D.Text = UCDraw.ToString();
             }
         }
     }

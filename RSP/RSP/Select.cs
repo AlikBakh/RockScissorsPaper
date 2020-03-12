@@ -15,19 +15,17 @@ namespace RSP
         public Select()
         {
             InitializeComponent();
-            StartPosition = FormStartPosition.CenterScreen;
         }
 
         private void CompButton_Click(object sender, EventArgs e)
         {
-            GameMode gameModeForm = new GameMode();
-            gameModeForm.ShowDialog();
+
+            new GameMode().ShowDialog();
             Close();
         }//против бота
         private void UserButton_Click(object sender, EventArgs e)
         {
-            TwoPlayers tpForm = new TwoPlayers();
-            tpForm.ShowDialog();
+            new TwoPlayers().ShowDialog();
             Close();
         }//2 пользователя
 

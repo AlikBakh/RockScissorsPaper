@@ -118,68 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>None</value>
+  <data name="SvernutTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="L.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;SvernutTP.Name" xml:space="preserve">
-    <value>SvernutTP</value>
-  </data>
-  <data name="&gt;&gt;RockU2.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="ExitTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="W.Location" type="System.Drawing.Point, System.Drawing">
-    <value>443, 418</value>
-  </data>
-  <data name="Win.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="PaperU1.Text" xml:space="preserve">
-    <value>Paper</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="RockU2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="HelpTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 27</value>
-  </data>
-  <data name="ScissorsU1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 273</value>
-  </data>
-  <data name="User2.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="Поражений.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="SvernutTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>21, 27</value>
-  </data>
-  <data name="HelpTP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="User1.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;User1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="TimeTP.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;HelpTP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEAAAAAAAD/4QCqRXhpZgAATU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAAZKG
@@ -3077,913 +3022,29 @@
         OF7x6c14u3EsxxNScKFfEUW4qPsqzw8ZSqRfLGMqipygm6cbQqySu5PndF875f/Z
 </value>
   </data>
-  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
-    <value>timer1</value>
+  <data name="User2Ask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="StopMusicTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Impact, 9.75pt</value>
+  <data name="User1Ask.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="StopMusicTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="Поражений.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="TimeTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>PMingLiU-ExtB, 11.25pt, style=Italic</value>
+  <data name="L.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Win.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 40</value>
+  <data name="D.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="User2Frame.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
+  <data name="Draw.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;ExitTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="W.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;HelpTP.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="PaperU1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;ExitTP.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="Draw.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="User1Frame.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;Win.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="User2Frame.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;W.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DataTP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="User2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 111</value>
-  </data>
-  <data name="&gt;&gt;PaperU1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="HelpTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>PMingLiU-ExtB, 15.75pt, style=Italic</value>
-  </data>
-  <data name="Поражений.Text" xml:space="preserve">
-    <value>Losing:</value>
-  </data>
-  <data name="&gt;&gt;RockU2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ExitTP.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;W.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;User2Ask.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;L.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="DataTP.Text" xml:space="preserve">
-    <value>Data</value>
-  </data>
-  <data name="&gt;&gt;RockU2.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="D.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;ExitTP.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="DataTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="D.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="L.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="HelpTP.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PaperU1.Name" xml:space="preserve">
-    <value>PaperU1</value>
-  </data>
-  <data name="ScissorsU2.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="PaperU1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="PlayMusicTP.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="ScissorsU1.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="User1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>124, 111</value>
-  </data>
-  <data name="User1.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="SvernutTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>PMingLiU-ExtB, 15.75pt, style=Bold</value>
-  </data>
-  <data name="&gt;&gt;Win.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;PaperU1.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1082, 29</value>
-  </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-10, 15</value>
-  </data>
-  <data name="User1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;SvernutTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Win.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="User2Ask.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="PaperU2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;L.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="W.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="RockU1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 237</value>
-  </data>
-  <data name="&gt;&gt;PaperU2.Name" xml:space="preserve">
-    <value>PaperU2</value>
-  </data>
-  <data name="DataTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 514</value>
-  </data>
-  <data name="RockU2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>977, 237</value>
-  </data>
-  <data name="StopMusicTP.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="D.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="D.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 40</value>
-  </data>
-  <data name="User2Ask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 128</value>
-  </data>
-  <data name="&gt;&gt;PaperU2.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="SvernutTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1027, 1</value>
-  </data>
-  <data name="&gt;&gt;User1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;User2Ask.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Поражений.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="User1Ask.Size" type="System.Drawing.Size, System.Drawing">
-    <value>161, 126</value>
-  </data>
-  <data name="&gt;&gt;Draw.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;User1Ask.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;D.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="User1Frame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>351, 180</value>
-  </data>
-  <data name="User1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>375, 17</value>
-  </data>
-  <data name="Draw.Location" type="System.Drawing.Point, System.Drawing">
-    <value>519, 418</value>
-  </data>
-  <data name="Поражений.Location" type="System.Drawing.Point, System.Drawing">
-    <value>689, 418</value>
-  </data>
-  <data name="&gt;&gt;W.Name" xml:space="preserve">
-    <value>W</value>
-  </data>
-  <data name="&gt;&gt;Поражений.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;StopMusicTP.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="D.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 418</value>
-  </data>
-  <data name="L.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;StopMusicTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="User1Frame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 158</value>
-  </data>
-  <data name="&gt;&gt;User1Frame.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;RockU1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>TwoPlayers</value>
-  </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;TimeTP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;StopMusicTP.Name" xml:space="preserve">
-    <value>StopMusicTP</value>
-  </data>
-  <data name="Draw.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Win.Text" xml:space="preserve">
-    <value>Winning:</value>
-  </data>
-  <data name="&gt;&gt;SvernutTP.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="Draw.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Поражений.Name" xml:space="preserve">
-    <value>Поражений</value>
-  </data>
-  <data name="User1Frame.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAlgAAAHvCAYAAACIQaGMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAI
-        zwAACM8Be0VumwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAWdEVYdFRpdGxl
-        AEp1c3QgQmxhY2sgRnJhbWWUJhmWAAASiklEQVR4Xu3dua0k1xZEUZrwvfnu0BT2PLhGo5ovgH5KoAQC
-        jAIKOEtYeoa2kcPNP/7/vz9/AQCwI7AAAMYEFgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCaw
-        AADGBBYAwJjAAgAYE1gAAGMCCwBgTGABAIwJLACAMYEFADAmsAAAxgQWAMCYwAIAGBNYAABjAgsAYExg
-        AQCMCSwAgLFnBtbfb37+9uPN99++vfn65stvn998evPxtw9v/gIA+JfSDu8dkaZIW7x3Rpoj7fHeIWmS
-        9z5JqzxqmP/smYH189evX38AALyitEq1y8wzA+vHozEAAK8grVLtMvPMwPr+aAwAwCtIq1S7zDwzsL49
-        GgMA8ArSKtUuMwILADgprVLtMvPMwPr6aAwAwCtIq1S7zDwzsL48GgMA8ArSKtUuM88MrM+PxgAAvIK0
-        SrXLzDMD69OjMQAAryCtUu0y88zA+vhoDADAK0irVLvMPDOwPjwaAwDwCtIq1S4zzwysvx6NAQB4BWmV
-        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
-        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
-        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
-        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
-        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
-        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
-        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
-        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
-        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
-        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
-        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
-        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
-        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
-        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
-        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
-        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
-        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
-        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
-        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
-        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
-        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
-        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
-        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
-        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
-        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
-        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
-        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
-        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
-        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
-        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
-        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
-        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
-        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
-        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
-        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
-        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
-        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
-        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
-        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
-        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
-        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
-        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
-        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
-        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
-        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
-        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
-        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
-        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
-        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
-        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
-        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
-        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
-        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
-        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
-        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
-        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
-        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
-        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
-        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
-        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
-        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
-        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
-        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
-        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
-        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
-        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
-        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXmWcG1odHYwAA
-        XkFapdpl5pmB9fHRGACAV5BWqXaZeWZgfXo0BgDgFaRVql1mnhlYnx+NAQB4BWmVapeZZwbWl0djAABe
-        QVql2mXmmYH19dEYAIBXkFapdpl5ZmB9ezQGAOAVpFWqXWYEFgBwUlql2mXmmYH1/dEYAIBXkFapdpl5
-        ZmD9eDQGAOAVpFWqXWaeGVg/H40BAHgFaZVql5lnBtbfb3LhkULMbbjI8868tZ9PIyNnUOSgr5ymGjm2
-        Pv8GAgD4N9IO7x2RpkhbvHdGmiPt8d4haZL3PkmrPGqY/+yZgQUAcJLAAgAYE1gAAGMCCwBgTGABAIwJ
-        LACAMYEFADAmsAAAxgQWAMCYwAIAGBNYAABjAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYEFgDAmMACABgT
-        WAAAYwILAGBMYAEAjAksAIAxgQUAMCawAACm/vz1D/Wdl0Y8pnwfAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="SvernutTP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="User1Frame.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="User1Ask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>361, 194</value>
-  </data>
-  <data name="RockU2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;D.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="SvernutTP.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;DataTP.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="&gt;&gt;L.Name" xml:space="preserve">
-    <value>L</value>
-  </data>
-  <data name="W.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="&gt;&gt;HelpTP.Name" xml:space="preserve">
-    <value>HelpTP</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;HelpTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="L.Text" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;User1Ask.Name" xml:space="preserve">
-    <value>User1Ask</value>
-  </data>
-  <data name="User1Frame.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="PlayMusicTP.Text" xml:space="preserve">
-    <value>▶</value>
-  </data>
-  <data name="User2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;User2Frame.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="User2Frame.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 158</value>
-  </data>
-  <data name="RockU1.Text" xml:space="preserve">
-    <value>Rock</value>
-  </data>
-  <data name="StopMusicTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>587, 502</value>
-  </data>
-  <data name="&gt;&gt;RockU1.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;User1Frame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="HelpTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>934, 496</value>
-  </data>
-  <data name="&gt;&gt;Поражений.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="PaperU2.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU2.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;User2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;RockU1.Name" xml:space="preserve">
-    <value>RockU1</value>
-  </data>
-  <data name="W.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DataTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;User1Ask.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;User1Frame.Name" xml:space="preserve">
-    <value>User1Frame</value>
-  </data>
-  <data name="RockU1.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="SvernutTP.Text" xml:space="preserve">
-    <value>-</value>
-  </data>
-  <data name="ExitTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>23, 24</value>
-  </data>
-  <data name="&gt;&gt;User2Ask.Name" xml:space="preserve">
-    <value>User2Ask</value>
-  </data>
-  <data name="SvernutTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;User1.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;L.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;ExitTP.Name" xml:space="preserve">
-    <value>ExitTP</value>
-  </data>
-  <data name="RockU2.Text" xml:space="preserve">
-    <value>Rock</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>GameMode</value>
-  </data>
-  <data name="TimeTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>47, 19</value>
-  </data>
-  <data name="User1Ask.ErrorImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="User1Ask.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
-  </data>
-  <data name="&gt;&gt;PlayMusicTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="User2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>663, 17</value>
-  </data>
-  <data name="D.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="PlayMusicTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>36, 30</value>
-  </data>
-  <data name="User2Ask.Location" type="System.Drawing.Point, System.Drawing">
-    <value>641, 194</value>
-  </data>
-  <data name="User2Frame.Location" type="System.Drawing.Point, System.Drawing">
-    <value>631, 180</value>
-  </data>
-  <data name="User1Ask.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="User1Ask.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="TimeTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Win.Location" type="System.Drawing.Point, System.Drawing">
-    <value>309, 418</value>
-  </data>
-  <data name="&gt;&gt;User2Frame.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;PaperU1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;TimeTP.Name" xml:space="preserve">
-    <value>TimeTP</value>
-  </data>
-  <data name="Win.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="DataTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>PMingLiU-ExtB, 11.25pt, style=Italic</value>
-  </data>
-  <data name="&gt;&gt;User2Frame.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;User2.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="DataTP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;User2Ask.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TimeTP.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;TimeTP.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="Поражений.Size" type="System.Drawing.Size, System.Drawing">
-    <value>113, 40</value>
-  </data>
-  <data name="&gt;&gt;RockU1.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="Win.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="RockU2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="Поражений.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="L.Font" type="System.Drawing.Font, System.Drawing">
-    <value>MV Boli, 18pt, style=Italic</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="User2Frame.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAlgAAAHvCAYAAACIQaGMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAI
-        zwAACM8Be0VumwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAWdEVYdFRpdGxl
-        AEp1c3QgQmxhY2sgRnJhbWWUJhmWAAAShUlEQVR4Xu3dOaokZxSEUS2wF6Weh61pUa0X0M8JyhAoCgru
-        MY6f4X3k8OdfHz58+A0AwI7AAgAYE1gAAGMCCwBgTGABAIwJLACAMYEFADAmsAAAxgQWAMCYwAIAGBNY
-        AABjAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYEFgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCaw
-        AADGnhlY/7z59cfPNz/++P7m25uvf3x58/nNpz8+vvkbAOA/Sju8d0SaIm3x3hlpjrTHe4ekSd77JK3y
-        qGH+t2cG1q/fv3//BQDwitIq1S4zzwysn4/GAAC8grRKtcvMMwPrx6MxAACvIK1S7TLzzMD6/mgMAMAr
-        SKtUu8wILADgpLRKtcvMMwPr26MxAACvIK1S7TLzzMD6+mgMAMArSKtUu8w8M7C+PBoDAPAK0irVLjPP
-        DKzPj8YAALyCtEq1y8wzA+vTozEAAK8grVLtMvPMwPr4aAwAwCtIq1S7zDwzsP5+NAYA4BWkVapdZgQW
-        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
-        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
-        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
-        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
-        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
-        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
-        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
-        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
-        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
-        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
-        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
-        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
-        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
-        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
-        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
-        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
-        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
-        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
-        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
-        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
-        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
-        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
-        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
-        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
-        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
-        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
-        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
-        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
-        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
-        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
-        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
-        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
-        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
-        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
-        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
-        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
-        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
-        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
-        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
-        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
-        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
-        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
-        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
-        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
-        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
-        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
-        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
-        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
-        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
-        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
-        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
-        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
-        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
-        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
-        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
-        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
-        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
-        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
-        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
-        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
-        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
-        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
-        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
-        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
-        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
-        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
-        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWaeGVgfH40BAHgFaZVq
-        l5lnBtanR2MAAF5BWqXaZeaZgfX50RgAgFeQVql2mXlmYH15NAYA4BWkVapdZp4ZWF8fjQEAeAVplWqX
-        mWcG1rdHYwAAXkFapdpl5pmB9f3RGACAV5BWqXaZEVgAwElplWqXmWcG1o9HYwAAXkFapdpl5pmB9fPR
-        GACAV5BWqXaZeWZg/Xo0BgDgFaRVql1mnhlY/7zJhUcKMbfhIs8789Z+Po2MnEGRg75ymmrk2Pr8GwgA
-        4L9IO7x3RJoibfHeGWmOtMd7h6RJ3vskrfKoYf63ZwYWAMBJAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYE
-        FgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCawAADGBBYAwJjAAgAYE1gAAGMCCwBgTGABAIwJ
-        LACAMYEFADAmsAAAxgQWAMCYwAIAmPrw+1+xnZQVtsUKawAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="ScissorsU2.Text" xml:space="preserve">
-    <value>Scissors</value>
-  </data>
-  <data name="StopMusicTP.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="panel1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Stretch</value>
-  </data>
-  <data name="&gt;&gt;User1Ask.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;PaperU2.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="RockU1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;PlayMusicTP.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="PlayMusicTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>543, 502</value>
-  </data>
-  <data name="PlayMusicTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;User2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Draw.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 40</value>
-  </data>
-  <data name="D.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="DataTP.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>-6, -1</value>
-  </data>
-  <data name="HelpTP.Text" xml:space="preserve">
-    <value>Game's rules</value>
-  </data>
-  <data name="&gt;&gt;Draw.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="TimeTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 496</value>
-  </data>
-  <data name="ExitTP.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1049, 4</value>
-  </data>
-  <data name="&gt;&gt;DataTP.Name" xml:space="preserve">
-    <value>DataTP</value>
-  </data>
-  <data name="User2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="User2Ask.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="User2Ask.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;PlayMusicTP.Name" xml:space="preserve">
-    <value>PlayMusicTP</value>
-  </data>
-  <data name="W.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 40</value>
-  </data>
-  <data name="ScissorsU1.Text" xml:space="preserve">
-    <value>Scissors</value>
-  </data>
-  <data name="ExitTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="Draw.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;D.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="User2Frame.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="StopMusicTP.Text" xml:space="preserve">
-    <value>II</value>
-  </data>
-  <data name="W.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="&gt;&gt;PaperU2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ScissorsU2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>977, 273</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="PaperU1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="ScissorsU2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="DataTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>43, 19</value>
-  </data>
-  <data name="ScissorsU1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="L.Size" type="System.Drawing.Size, System.Drawing">
-    <value>38, 40</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;User1.Name" xml:space="preserve">
-    <value>User1</value>
-  </data>
-  <data name="&gt;&gt;Поражений.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Win.Name" xml:space="preserve">
-    <value>Win</value>
-  </data>
-  <data name="TimeTP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;Win.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="ScissorsU2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;SvernutTP.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="ExitTP.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;W.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="SvernutTP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
-    <value>Top, Right</value>
-  </data>
-  <data name="&gt;&gt;ScissorsU1.Name" xml:space="preserve">
-    <value>ScissorsU1</value>
-  </data>
-  <data name="TimeTP.Text" xml:space="preserve">
-    <value>Time</value>
-  </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1067, 554</value>
-  </data>
-  <data name="&gt;&gt;User2Frame.Name" xml:space="preserve">
-    <value>User2Frame</value>
-  </data>
-  <data name="L.Location" type="System.Drawing.Point, System.Drawing">
-    <value>799, 418</value>
-  </data>
-  <data name="ScissorsU1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="User1Ask.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="ExitTP.Text" xml:space="preserve">
-    <value>Х
-</value>
-  </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;StopMusicTP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="HelpTP.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
-  <data name="User2.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="&gt;&gt;D.Name" xml:space="preserve">
-    <value>D</value>
-  </data>
-  <data name="panel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="PlayMusicTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 10.2pt</value>
-  </data>
-  <data name="&gt;&gt;RockU2.Name" xml:space="preserve">
-    <value>RockU2</value>
-  </data>
-  <data name="&gt;&gt;PlayMusicTP.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="RockU1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
-  </data>
-  <data name="W.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="Win.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="User1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4740,61 +3801,227 @@
         y3UEmf+ltwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="PaperU1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 309</value>
+  <data name="PlayMusicTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="Поражений.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="StopMusicTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="PaperU2.Text" xml:space="preserve">
-    <value>Paper</value>
+  <data name="ScissorsU2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="User1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="ScissorsU1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="ExitTP.Font" type="System.Drawing.Font, System.Drawing">
-    <value>PMingLiU-ExtB, 14.25pt, style=Bold</value>
+  <data name="PaperU2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;User1Frame.Parent" xml:space="preserve">
-    <value>panel1</value>
+  <data name="PaperU1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;Draw.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="RockU2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="StopMusicTP.Size" type="System.Drawing.Size, System.Drawing">
-    <value>35, 30</value>
+  <data name="RockU1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="PaperU2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>977, 309</value>
+  <data name="HelpTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;User2.Name" xml:space="preserve">
-    <value>User2</value>
+  <data name="HelpTP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1003, 496</value>
   </data>
-  <data name="Draw.Text" xml:space="preserve">
-    <value>Draws:</value>
+  <data name="HelpTP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 27</value>
   </data>
-  <data name="&gt;&gt;ScissorsU1.ZOrder" xml:space="preserve">
-    <value>13</value>
+  <data name="HelpTP.Text" xml:space="preserve">
+    <value>Help</value>
   </data>
-  <data name="PaperU2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 28</value>
+  <data name="DataTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;Draw.Name" xml:space="preserve">
-    <value>Draw</value>
+  <data name="TimeTP.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <data name="&gt;&gt;ScissorsU2.Name" xml:space="preserve">
-    <value>ScissorsU2</value>
+  <data name="User2Frame.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAlgAAAHvCAYAAACIQaGMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAI
+        zwAACM8Be0VumwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAWdEVYdFRpdGxl
+        AEp1c3QgQmxhY2sgRnJhbWWUJhmWAAAShUlEQVR4Xu3dOaokZxSEUS2wF6Weh61pUa0X0M8JyhAoCgru
+        MY6f4X3k8OdfHz58+A0AwI7AAgAYE1gAAGMCCwBgTGABAIwJLACAMYEFADAmsAAAxgQWAMCYwAIAGBNY
+        AABjAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYEFgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCaw
+        AADGnhlY/7z59cfPNz/++P7m25uvf3x58/nNpz8+vvkbAOA/Sju8d0SaIm3x3hlpjrTHe4ekSd77JK3y
+        qGH+t2cG1q/fv3//BQDwitIq1S4zzwysn4/GAAC8grRKtcvMMwPrx6MxAACvIK1S7TLzzMD6/mgMAMAr
+        SKtUu8wILADgpLRKtcvMMwPr26MxAACvIK1S7TLzzMD6+mgMAMArSKtUu8w8M7C+PBoDAPAK0irVLjPP
+        DKzPj8YAALyCtEq1y8wzA+vTozEAAK8grVLtMvPMwPr4aAwAwCtIq1S7zDwzsP5+NAYA4BWkVapdZgQW
+        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
+        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
+        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
+        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
+        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
+        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
+        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
+        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
+        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
+        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
+        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
+        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
+        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
+        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
+        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
+        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
+        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
+        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
+        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
+        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
+        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
+        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
+        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
+        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
+        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
+        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
+        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
+        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
+        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
+        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
+        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
+        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
+        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
+        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
+        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
+        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
+        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
+        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
+        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
+        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
+        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
+        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
+        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
+        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
+        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
+        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
+        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
+        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEA
+        J6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VV
+        ql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1m
+        BBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYA
+        cFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJa
+        pdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdpl
+        RmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmAB
+        ACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACel
+        VapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapd
+        ZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQW
+        AHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBS
+        WqXaZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXa
+        ZUZgAQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZg
+        AQAnpVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAn
+        pVWqXWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWq
+        XWYEFgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYE
+        FgBwUlql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBw
+        Ulql2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql
+        2mVGYAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWYEFgBwUlql2mVG
+        YAEAJ6VVql1mBBYAcFJapdplRmABACelVapdZgQWAHBSWqXaZUZgAQAnpVWqXWaeGVgfH40BAHgFaZVq
+        l5lnBtanR2MAAF5BWqXaZeaZgfX50RgAgFeQVql2mXlmYH15NAYA4BWkVapdZp4ZWF8fjQEAeAVplWqX
+        mWcG1rdHYwAAXkFapdpl5pmB9f3RGACAV5BWqXaZEVgAwElplWqXmWcG1o9HYwAAXkFapdpl5pmB9fPR
+        GACAV5BWqXaZeWZg/Xo0BgDgFaRVql1mnhlY/7zJhUcKMbfhIs8789Z+Po2MnEGRg75ymmrk2Pr8GwgA
+        4L9IO7x3RJoibfHeGWmOtMd7h6RJ3vskrfKoYf63ZwYWAMBJAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYE
+        FgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCawAADGBBYAwJjAAgAYE1gAAGMCCwBgTGABAIwJ
+        LACAMYEFADAmsAAAxgQWAMCYwAIAmPrw+1+xnZQVtsUKawAAAABJRU5ErkJggg==
+</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1114, 582</value>
+  <data name="User2Frame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>39</value>
-  </metadata>
+  <data name="User1Frame.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAlgAAAHvCAYAAACIQaGMAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAI
+        zwAACM8Be0VumwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAWdEVYdFRpdGxl
+        AEp1c3QgQmxhY2sgRnJhbWWUJhmWAAASiklEQVR4Xu3dua0k1xZEUZrwvfnu0BT2PLhGo5ovgH5KoAQC
+        jAIKOEtYeoa2kcPNP/7/vz9/AQCwI7AAAMYEFgDAmMACABgTWAAAYwILAGBMYAEAjAksAIAxgQUAMCaw
+        AADGBBYAwJjAAgAYE1gAAGMCCwBgTGABAIwJLACAMYEFADAmsAAAxgQWAMCYwAIAGBNYAABjAgsAYExg
+        AQCMCSwAgLFnBtbfb37+9uPN99++vfn65stvn998evPxtw9v/gIA+JfSDu8dkaZIW7x3Rpoj7fHeIWmS
+        9z5JqzxqmP/smYH189evX38AALyitEq1y8wzA+vHozEAAK8grVLtMvPMwPr+aAwAwCtIq1S7zDwzsL49
+        GgMA8ArSKtUuMwILADgprVLtMvPMwPr6aAwAwCtIq1S7zDwzsL48GgMA8ArSKtUuM88MrM+PxgAAvIK0
+        SrXLzDMD69OjMQAAryCtUu0y88zA+vhoDADAK0irVLvMPDOwPjwaAwDwCtIq1S4zzwysvx6NAQB4BWmV
+        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
+        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
+        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
+        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
+        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
+        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
+        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
+        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
+        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
+        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
+        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
+        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
+        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
+        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
+        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
+        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
+        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
+        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
+        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
+        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
+        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
+        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
+        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
+        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
+        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
+        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
+        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
+        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
+        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
+        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
+        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
+        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
+        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
+        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
+        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
+        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
+        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
+        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
+        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
+        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
+        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
+        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
+        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
+        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
+        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
+        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
+        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
+        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2
+        mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFY
+        AMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJ
+        aZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVq
+        lxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmB
+        BQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCc
+        lFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFap
+        dpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkR
+        WADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADA
+        SWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmV
+        apcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZ
+        gQUAnJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUA
+        nJRWqXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRW
+        qXaZEVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZ
+        EVgAwElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgA
+        wElplWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElp
+        lWqXGYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqX
+        GYEFAJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEF
+        AJyUVql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXGYEFAJyU
+        Vql2mRFYAMBJaZVqlxmBBQCclFapdpkRWADASWmVapcZgQUAnJRWqXaZEVgAwElplWqXmWcG1odHYwAA
+        XkFapdpl5pmB9fHRGACAV5BWqXaZeWZgfXo0BgDgFaRVql1mnhlYnx+NAQB4BWmVapeZZwbWl0djAABe
+        QVql2mXmmYH19dEYAIBXkFapdpl5ZmB9ezQGAOAVpFWqXWYEFgBwUlql2mXmmYH1/dEYAIBXkFapdpl5
+        ZmD9eDQGAOAVpFWqXWaeGVg/H40BAHgFaZVql5lnBtbfb3LhkULMbbjI8868tZ9PIyNnUOSgr5ymGjm2
+        Pv8GAgD4N9IO7x2RpkhbvHdGmiPt8d4haZL3PkmrPGqY/+yZgQUAcJLAAgAYE1gAAGMCCwBgTGABAIwJ
+        LACAMYEFADAmsAAAxgQWAMCYwAIAGBNYAABjAgsAYExgAQCMCSwAgDGBBQAwJrAAAMYEFgDAmMACABgT
+        WAAAYwILAGBMYAEAjAksAIAxgQUAMCawAACm/vz1D/Wdl0Y8pnwfAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="User1Frame.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
 </root>
