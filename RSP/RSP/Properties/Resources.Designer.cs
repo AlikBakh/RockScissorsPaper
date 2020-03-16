@@ -113,6 +113,16 @@ namespace RSP.Properties {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        public static System.Drawing.Bitmap FirstUser {
+            get {
+                object obj = ResourceManager.GetObject("FirstUser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         public static System.Drawing.Bitmap head_icon_6535 {
             get {
                 object obj = ResourceManager.GetObject("head_icon_6535", resourceCulture);
@@ -135,6 +145,26 @@ namespace RSP.Properties {
         public static System.Drawing.Bitmap robot_icons_30512 {
             get {
                 object obj = ResourceManager.GetObject("robot-icons-30512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap SecUser {
+            get {
+                object obj = ResourceManager.GetObject("SecUser", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap UFO {
+            get {
+                object obj = ResourceManager.GetObject("UFO", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -235,6 +265,16 @@ namespace RSP.Properties {
         public static System.Drawing.Bitmap каменная_стена1 {
             get {
                 object obj = ResourceManager.GetObject("каменная стена1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        public static System.Drawing.Bitmap наим {
+            get {
+                object obj = ResourceManager.GetObject("наим", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -96,8 +96,6 @@ namespace RSP
         {
             this.Hide();
             new Select().ShowDialog();
-            
-
         }
 
     }

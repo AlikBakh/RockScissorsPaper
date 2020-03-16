@@ -35,6 +35,7 @@
             this.ExitGM = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel3 = new System.Windows.Forms.Panel();
             this.CompsAsk = new System.Windows.Forms.PictureBox();
             this.UsersAsk = new System.Windows.Forms.PictureBox();
             this.Поражений = new System.Windows.Forms.Label();
@@ -43,7 +44,6 @@
             this.Draw = new System.Windows.Forms.Label();
             this.W = new System.Windows.Forms.Label();
             this.Win = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.PlayMusic = new System.Windows.Forms.Button();
             this.StopMusic = new System.Windows.Forms.Button();
@@ -147,6 +147,19 @@
             this.panel1.Size = new System.Drawing.Size(1083, 574);
             this.panel1.TabIndex = 0;
             // 
+            // panel3
+            // 
+            this.panel3.AutoSize = true;
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.BackgroundImage = global::RSP.Properties.Resources.FirstUser;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel3.ForeColor = System.Drawing.Color.Red;
+            this.panel3.Location = new System.Drawing.Point(355, 22);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(169, 140);
+            this.panel3.TabIndex = 10;
+            // 
             // CompsAsk
             // 
             this.CompsAsk.Image = global::RSP.Properties.Resources.CompAsk1;
@@ -243,32 +256,17 @@
             this.Win.TabIndex = 12;
             this.Win.Text = "Winning:";
             // 
-            // panel3
-            // 
-            this.panel3.AutoSize = true;
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.panel3.ForeColor = System.Drawing.Color.Red;
-            this.panel3.Location = new System.Drawing.Point(379, 22);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(124, 111);
-            this.panel3.TabIndex = 10;
-            // 
             // panel4
             // 
             this.panel4.AutoSize = true;
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel4.BackgroundImage")));
+            this.panel4.BackgroundImage = global::RSP.Properties.Resources.UFO;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.ForeColor = System.Drawing.SystemColors.Control;
-            this.panel4.Location = new System.Drawing.Point(667, 22);
+            this.panel4.Location = new System.Drawing.Point(634, 22);
             this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(124, 111);
+            this.panel4.Size = new System.Drawing.Size(182, 140);
             this.panel4.TabIndex = 10;
             // 
             // PlayMusic

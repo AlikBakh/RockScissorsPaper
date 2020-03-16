@@ -69,11 +69,11 @@
             // 
             // panel2
             // 
-            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.BackColor = System.Drawing.Color.Silver;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.SvernutTP);
             this.panel2.Controls.Add(this.ExitTP);
+            resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
             // 
@@ -101,8 +101,8 @@
             // 
             // panel1
             // 
-            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.panel1, "panel1");
             this.panel1.Controls.Add(this.User2Ask);
             this.panel1.Controls.Add(this.User1Ask);
             this.panel1.Controls.Add(this.Поражений);
@@ -130,8 +130,8 @@
             // 
             // User2Ask
             // 
-            resources.ApplyResources(this.User2Ask, "User2Ask");
             this.User2Ask.Image = global::RSP.Properties.Resources.CompAsk1;
+            resources.ApplyResources(this.User2Ask, "User2Ask");
             this.User2Ask.Name = "User2Ask";
             this.User2Ask.TabStop = false;
             // 
@@ -182,6 +182,7 @@
             // 
             resources.ApplyResources(this.User1, "User1");
             this.User1.BackColor = System.Drawing.Color.Transparent;
+            this.User1.BackgroundImage = global::RSP.Properties.Resources.FirstUser;
             this.User1.ForeColor = System.Drawing.Color.Red;
             this.User1.Name = "User1";
             // 
@@ -189,14 +190,14 @@
             // 
             resources.ApplyResources(this.User2, "User2");
             this.User2.BackColor = System.Drawing.Color.Transparent;
-            this.User2.BackgroundImage = global::RSP.Properties.Resources.user21;
+            this.User2.BackgroundImage = global::RSP.Properties.Resources.SecUser;
             this.User2.ForeColor = System.Drawing.SystemColors.Control;
             this.User2.Name = "User2";
             // 
             // PlayMusicTP
             // 
-            resources.ApplyResources(this.PlayMusicTP, "PlayMusicTP");
             this.PlayMusicTP.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.PlayMusicTP, "PlayMusicTP");
             this.PlayMusicTP.Name = "PlayMusicTP";
             this.PlayMusicTP.UseVisualStyleBackColor = true;
             this.PlayMusicTP.Click += new System.EventHandler(this.PlayMusic_Click);

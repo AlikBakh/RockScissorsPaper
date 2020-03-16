@@ -32,10 +32,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.SvernutS = new System.Windows.Forms.Label();
             this.ExitS = new System.Windows.Forms.Label();
+            this.WCF = new System.Windows.Forms.Button();
             this.CompButton = new System.Windows.Forms.Button();
             this.UserButton = new System.Windows.Forms.Button();
             this.Sopernik = new System.Windows.Forms.Label();
-            this.WCF = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -99,6 +99,17 @@
             this.ExitS.MouseEnter += new System.EventHandler(this.ExitS_MouseEnter);
             this.ExitS.MouseLeave += new System.EventHandler(this.ExitS_MouseLeave);
             // 
+            // WCF
+            // 
+            this.WCF.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.WCF.Location = new System.Drawing.Point(178, 228);
+            this.WCF.Name = "WCF";
+            this.WCF.Size = new System.Drawing.Size(175, 59);
+            this.WCF.TabIndex = 1;
+            this.WCF.Text = "WCF(не работает)";
+            this.WCF.UseVisualStyleBackColor = true;
+            this.WCF.Click += new System.EventHandler(this.CompButton_Click);
+            // 
             // CompButton
             // 
             this.CompButton.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -117,7 +128,7 @@
             this.UserButton.Name = "UserButton";
             this.UserButton.Size = new System.Drawing.Size(174, 59);
             this.UserButton.TabIndex = 1;
-            this.UserButton.Text = "Человек\r\n(тест)\r\n";
+            this.UserButton.Text = "Человек\r\n(new)\r\n";
             this.UserButton.UseVisualStyleBackColor = true;
             this.UserButton.Click += new System.EventHandler(this.UserButton_Click);
             // 
@@ -132,17 +143,6 @@
             this.Sopernik.Size = new System.Drawing.Size(420, 53);
             this.Sopernik.TabIndex = 0;
             this.Sopernik.Text = "Выберите соперника";
-            // 
-            // WCF
-            // 
-            this.WCF.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.WCF.Location = new System.Drawing.Point(178, 228);
-            this.WCF.Name = "WCF";
-            this.WCF.Size = new System.Drawing.Size(175, 59);
-            this.WCF.TabIndex = 1;
-            this.WCF.Text = "WCF";
-            this.WCF.UseVisualStyleBackColor = true;
-            this.WCF.Click += new System.EventHandler(this.CompButton_Click);
             // 
             // Select
             // 

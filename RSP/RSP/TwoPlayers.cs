@@ -306,10 +306,4 @@ namespace RSP
         }        
 
     }
-    public enum Choose { Rock , Scissors , Paper };
-    public interface IGameInterractive
-    {
-        bool Connect();
-        void Step(Choose c);
-    }
 }

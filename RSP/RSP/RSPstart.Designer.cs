@@ -35,7 +35,6 @@
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.KNB = new System.Windows.Forms.Label();
             this.StopMusic = new System.Windows.Forms.Button();
             this.Help = new System.Windows.Forms.Label();
             this.PlayMusic = new System.Windows.Forms.Button();
@@ -44,8 +43,10 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.Svernut = new System.Windows.Forms.Label();
             this.Exit = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -59,11 +60,11 @@
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.panel4);
+            this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.PlayTheGame);
             this.panel1.Controls.Add(this.panel5);
-            this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.panel3);
-            this.panel1.Controls.Add(this.KNB);
             this.panel1.Controls.Add(this.StopMusic);
             this.panel1.Controls.Add(this.Help);
             this.panel1.Controls.Add(this.PlayMusic);
@@ -99,47 +100,32 @@
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Transparent;
-            this.panel5.BackgroundImage = global::RSP.Properties.Resources.robot_icons_30512;
+            this.panel5.BackgroundImage = global::RSP.Properties.Resources.UFO;
             this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel5.Location = new System.Drawing.Point(527, 162);
+            this.panel5.Location = new System.Drawing.Point(498, 162);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(245, 236);
+            this.panel5.Size = new System.Drawing.Size(274, 253);
             this.panel5.TabIndex = 8;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::RSP.Properties.Resources.head_icon_6535;
+            this.panel4.BackgroundImage = global::RSP.Properties.Resources.FirstUser;
             this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.Location = new System.Drawing.Point(247, 107);
+            this.panel4.Location = new System.Drawing.Point(257, 128);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(245, 236);
+            this.panel4.Size = new System.Drawing.Size(235, 214);
             this.panel4.TabIndex = 8;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.BackgroundImage = global::RSP.Properties.Resources.user21;
+            this.panel3.BackgroundImage = global::RSP.Properties.Resources.SecUser;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel3.Location = new System.Drawing.Point(-29, 179);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(270, 236);
             this.panel3.TabIndex = 8;
-            // 
-            // KNB
-            // 
-            this.KNB.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.KNB.BackColor = System.Drawing.Color.Black;
-            this.KNB.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.KNB.Font = new System.Drawing.Font("Segoe Print", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.KNB.ForeColor = System.Drawing.SystemColors.HighlightText;
-            this.KNB.Location = new System.Drawing.Point(-2, 24);
-            this.KNB.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.KNB.Name = "KNB";
-            this.KNB.Size = new System.Drawing.Size(766, 79);
-            this.KNB.TabIndex = 0;
-            this.KNB.Text = "Камень , ножницы , бумага";
-            this.KNB.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // StopMusic
             // 
@@ -257,6 +243,17 @@
             this.Exit.MouseEnter += new System.EventHandler(this.Exit_MouseEnter);
             this.Exit.MouseLeave += new System.EventHandler(this.Exit_MouseLeave);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::RSP.Properties.Resources.наим;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(761, 126);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // RSPstart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -272,6 +269,7 @@
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -282,7 +280,6 @@
         private System.Windows.Forms.Label Help;
         private System.Windows.Forms.Label Time;
         private System.Windows.Forms.Label Data;
-        private System.Windows.Forms.Label KNB;
         private System.Windows.Forms.Button PlayTheGame;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label Svernut;
@@ -293,5 +290,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

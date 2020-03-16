@@ -123,6 +123,12 @@
     <Content Include="Images\some png\comps rame.png" />
     <Content Include="Images\some png\pause.png" />
     <Content Include="Images\some png\users frame.png" />
+    <None Include="Resources\наим.png" />
+    <None Include="Resources\SecUser.png" />
+    <None Include="Resources\SecondUser.png" />
+    <None Include="Resources\UFO.png" />
+    <None Include="Resources\FirstUser.png" />
+    <None Include="Resources\FUser.bmp" />
     <None Include="Resources\user21.png" />
     <None Include="Resources\user2.png" />
     <None Include="Resources\User2.bmp" />
