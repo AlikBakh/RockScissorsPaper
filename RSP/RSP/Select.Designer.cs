@@ -32,7 +32,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.SvernutS = new System.Windows.Forms.Label();
             this.ExitS = new System.Windows.Forms.Label();
-            this.WCF = new System.Windows.Forms.Button();
+            this.TCP = new System.Windows.Forms.Button();
             this.CompButton = new System.Windows.Forms.Button();
             this.UserButton = new System.Windows.Forms.Button();
             this.Sopernik = new System.Windows.Forms.Label();
@@ -45,7 +45,7 @@
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.panel2);
-            this.panel1.Controls.Add(this.WCF);
+            this.panel1.Controls.Add(this.TCP);
             this.panel1.Controls.Add(this.CompButton);
             this.panel1.Controls.Add(this.UserButton);
             this.panel1.Controls.Add(this.Sopernik);
@@ -99,16 +99,16 @@
             this.ExitS.MouseEnter += new System.EventHandler(this.ExitS_MouseEnter);
             this.ExitS.MouseLeave += new System.EventHandler(this.ExitS_MouseLeave);
             // 
-            // WCF
+            // TCP
             // 
-            this.WCF.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.WCF.Location = new System.Drawing.Point(178, 228);
-            this.WCF.Name = "WCF";
-            this.WCF.Size = new System.Drawing.Size(175, 59);
-            this.WCF.TabIndex = 1;
-            this.WCF.Text = "WCF(не работает)";
-            this.WCF.UseVisualStyleBackColor = true;
-            this.WCF.Click += new System.EventHandler(this.CompButton_Click);
+            this.TCP.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.TCP.Location = new System.Drawing.Point(178, 228);
+            this.TCP.Name = "TCP";
+            this.TCP.Size = new System.Drawing.Size(175, 59);
+            this.TCP.TabIndex = 1;
+            this.TCP.Text = "TCP(не работает)";
+            this.TCP.UseVisualStyleBackColor = true;
+            this.TCP.Click += new System.EventHandler(this.TCP_Click);
             // 
             // CompButton
             // 
@@ -175,6 +175,6 @@
         private System.Windows.Forms.Label ExitS;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label SvernutS;
-        private System.Windows.Forms.Button WCF;
+        private System.Windows.Forms.Button TCP;
     }
 }

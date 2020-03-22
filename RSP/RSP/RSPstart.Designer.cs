@@ -31,19 +31,19 @@
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Svernut = new System.Windows.Forms.Label();
+            this.Exit = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.PlayTheGame = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.StopMusic = new System.Windows.Forms.Button();
             this.Help = new System.Windows.Forms.Label();
             this.PlayMusic = new System.Windows.Forms.Button();
             this.Data = new System.Windows.Forms.Label();
             this.Time = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Svernut = new System.Windows.Forms.Label();
-            this.Exit = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -60,6 +60,7 @@
             this.panel1.BackgroundImage = global::RSP.Properties.Resources.каменная_стена1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.panel2);
             this.panel1.Controls.Add(this.panel4);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.PlayTheGame);
@@ -70,13 +71,81 @@
             this.panel1.Controls.Add(this.PlayMusic);
             this.panel1.Controls.Add(this.Data);
             this.panel1.Controls.Add(this.Time);
-            this.panel1.Controls.Add(this.panel2);
             this.panel1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.panel1.Location = new System.Drawing.Point(-5, -3);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(766, 503);
             this.panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.Color.Silver;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.Svernut);
+            this.panel2.Controls.Add(this.Exit);
+            this.panel2.Location = new System.Drawing.Point(-29, -4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(789, 30);
+            this.panel2.TabIndex = 0;
+            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // Svernut
+            // 
+            this.Svernut.AutoSize = true;
+            this.Svernut.BackColor = System.Drawing.Color.Transparent;
+            this.Svernut.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Svernut.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Svernut.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Svernut.Location = new System.Drawing.Point(739, 0);
+            this.Svernut.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.Svernut.Name = "Svernut";
+            this.Svernut.Size = new System.Drawing.Size(21, 27);
+            this.Svernut.TabIndex = 8;
+            this.Svernut.Text = "-";
+            this.Svernut.Click += new System.EventHandler(this.Svernut_Click);
+            this.Svernut.MouseEnter += new System.EventHandler(this.Svernut_MouseEnter);
+            this.Svernut.MouseLeave += new System.EventHandler(this.Svernut_MouseLeave);
+            // 
+            // Exit
+            // 
+            this.Exit.AutoSize = true;
+            this.Exit.BackColor = System.Drawing.Color.Transparent;
+            this.Exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Exit.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Exit.ForeColor = System.Drawing.Color.White;
+            this.Exit.Location = new System.Drawing.Point(761, 4);
+            this.Exit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Exit.Name = "Exit";
+            this.Exit.Size = new System.Drawing.Size(23, 24);
+            this.Exit.TabIndex = 8;
+            this.Exit.Text = "Х";
+            this.Exit.Click += new System.EventHandler(this.Exit_Click);
+            this.Exit.MouseEnter += new System.EventHandler(this.Exit_MouseEnter);
+            this.Exit.MouseLeave += new System.EventHandler(this.Exit_MouseLeave);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Transparent;
+            this.panel4.BackgroundImage = global::RSP.Properties.Resources.FirstUser;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel4.Location = new System.Drawing.Point(257, 128);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(235, 214);
+            this.panel4.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImage = global::RSP.Properties.Resources.наим;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(-25, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(836, 175);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
             // PlayTheGame
             // 
@@ -107,24 +176,14 @@
             this.panel5.Size = new System.Drawing.Size(274, 253);
             this.panel5.TabIndex = 8;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Transparent;
-            this.panel4.BackgroundImage = global::RSP.Properties.Resources.FirstUser;
-            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel4.Location = new System.Drawing.Point(257, 128);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(235, 214);
-            this.panel4.TabIndex = 8;
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.BackgroundImage = global::RSP.Properties.Resources.SecUser;
             this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel3.Location = new System.Drawing.Point(-29, 179);
+            this.panel3.Location = new System.Drawing.Point(-12, 162);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(270, 236);
+            this.panel3.Size = new System.Drawing.Size(306, 253);
             this.panel3.TabIndex = 8;
             // 
             // StopMusic
@@ -194,65 +253,6 @@
             this.Time.Size = new System.Drawing.Size(41, 17);
             this.Time.TabIndex = 3;
             this.Time.Text = "Time";
-            // 
-            // panel2
-            // 
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.Svernut);
-            this.panel2.Controls.Add(this.Exit);
-            this.panel2.Location = new System.Drawing.Point(-29, -1);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(794, 40);
-            this.panel2.TabIndex = 0;
-            this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
-            // 
-            // Svernut
-            // 
-            this.Svernut.AutoSize = true;
-            this.Svernut.BackColor = System.Drawing.Color.Transparent;
-            this.Svernut.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Svernut.Font = new System.Drawing.Font("PMingLiU-ExtB", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Svernut.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Svernut.Location = new System.Drawing.Point(739, 0);
-            this.Svernut.Margin = new System.Windows.Forms.Padding(13, 0, 13, 0);
-            this.Svernut.Name = "Svernut";
-            this.Svernut.Size = new System.Drawing.Size(21, 27);
-            this.Svernut.TabIndex = 8;
-            this.Svernut.Text = "-";
-            this.Svernut.Click += new System.EventHandler(this.Svernut_Click);
-            this.Svernut.MouseEnter += new System.EventHandler(this.Svernut_MouseEnter);
-            this.Svernut.MouseLeave += new System.EventHandler(this.Svernut_MouseLeave);
-            // 
-            // Exit
-            // 
-            this.Exit.AutoSize = true;
-            this.Exit.BackColor = System.Drawing.Color.Transparent;
-            this.Exit.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Exit.Font = new System.Drawing.Font("PMingLiU-ExtB", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Exit.ForeColor = System.Drawing.Color.White;
-            this.Exit.Location = new System.Drawing.Point(761, 4);
-            this.Exit.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Exit.Name = "Exit";
-            this.Exit.Size = new System.Drawing.Size(23, 24);
-            this.Exit.TabIndex = 8;
-            this.Exit.Text = "Х";
-            this.Exit.Click += new System.EventHandler(this.Exit_Click);
-            this.Exit.MouseEnter += new System.EventHandler(this.Exit_MouseEnter);
-            this.Exit.MouseLeave += new System.EventHandler(this.Exit_MouseLeave);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::RSP.Properties.Resources.наим;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 30);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(761, 126);
-            this.pictureBox1.TabIndex = 9;
-            this.pictureBox1.TabStop = false;
             // 
             // RSPstart
             // 

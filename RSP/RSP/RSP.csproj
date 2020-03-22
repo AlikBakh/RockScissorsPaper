@@ -76,6 +76,12 @@
     <Compile Include="Select.Designer.cs">
       <DependentUpon>Select.cs</DependentUpon>
     </Compile>
+    <Compile Include="TCP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TCP.Designer.cs">
+      <DependentUpon>TCP.cs</DependentUpon>
+    </Compile>
     <Compile Include="TwoPlayers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,10 +102,10 @@
     <EmbeddedResource Include="Select.resx">
       <DependentUpon>Select.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TwoPlayers.resx">
-      <DependentUpon>TwoPlayers.cs</DependentUpon>
+    <EmbeddedResource Include="TCP.resx">
+      <DependentUpon>TCP.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="TwoPlayers.ru-RU.resx">
+    <EmbeddedResource Include="TwoPlayers.resx">
       <DependentUpon>TwoPlayers.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="..\.editorconfig">
@@ -123,6 +129,7 @@
     <Content Include="Images\some png\comps rame.png" />
     <Content Include="Images\some png\pause.png" />
     <Content Include="Images\some png\users frame.png" />
+    <None Include="Resources\1.png" />
     <None Include="Resources\наим.png" />
     <None Include="Resources\SecUser.png" />
     <None Include="Resources\SecondUser.png" />

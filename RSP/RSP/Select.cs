@@ -17,17 +17,21 @@ namespace RSP
             InitializeComponent();
         }
 
-        private void CompButton_Click(object sender, EventArgs e)
+        private void CompButton_Click(object sender, EventArgs e)//против бота
         {
-
             new GameMode().ShowDialog();
             Close();
-        }//против бота
-        private void UserButton_Click(object sender, EventArgs e)
+        }
+        private void UserButton_Click(object sender, EventArgs e)//2 пользователя
         {
             new TwoPlayers().ShowDialog();
             Close();
-        }//2 пользователя
+        }
+        private void TCP_Click(object sender, EventArgs e)//2 пользователя
+        {
+            new TCP().ShowDialog();
+            Close();
+        }
 
 
         private void ExitS_Click(object sender, EventArgs e)//Выход из игры с последующим подтверждением.
