@@ -32,6 +32,7 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TCP));
             this.panel2 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.SvernutTСP = new System.Windows.Forms.Label();
             this.ExitTСP = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -59,14 +60,13 @@
             this.TimeTCP = new System.Windows.Forms.Label();
             this.User2Frame = new System.Windows.Forms.PictureBox();
             this.User1Frame = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.User2Ask)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.User1Ask)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.User2Frame)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.User1Frame)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -79,6 +79,13 @@
             resources.ApplyResources(this.panel2, "panel2");
             this.panel2.Name = "panel2";
             this.panel2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel2_MouseMove);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = global::RSP.Properties.Resources._1;
+            resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.TabStop = false;
             // 
             // SvernutTСP
             // 
@@ -293,13 +300,6 @@
             this.User1Frame.Name = "User1Frame";
             this.User1Frame.TabStop = false;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::RSP.Properties.Resources._1;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            // 
             // TCP
             // 
             resources.ApplyResources(this, "$this");
@@ -311,13 +311,13 @@
             this.Name = "TCP";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.User2Ask)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.User1Ask)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.User2Frame)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.User1Frame)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
