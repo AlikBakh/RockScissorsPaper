@@ -128,7 +128,7 @@
             this.UserButton.Name = "UserButton";
             this.UserButton.Size = new System.Drawing.Size(174, 59);
             this.UserButton.TabIndex = 1;
-            this.UserButton.Text = "Человек\r\n(new)\r\n";
+            this.UserButton.Text = "Человек\r\n";
             this.UserButton.UseVisualStyleBackColor = true;
             this.UserButton.Click += new System.EventHandler(this.UserButton_Click);
             // 
